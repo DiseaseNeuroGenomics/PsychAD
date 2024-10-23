@@ -1,11 +1,10 @@
 ---
-layout: single
-classes: wide
+layout: splash
 permalink: /research/
 title: "Research"
 ---
 
-PsychAD Package of Publications
+**PsychAD Package of Publications**
 
 | Key | Title | Journal | Authors |
 | --- | --- | --- | --- |
