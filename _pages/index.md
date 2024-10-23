@@ -2,7 +2,7 @@
 title: "Psych-AD Consortium"
 layout: splash
 author_profile: false
-permalink: /home/
+permalink: /
 date: 2024-10-23T11:48:41-04:00
 header:
   overlay_color: "#000"
