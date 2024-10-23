@@ -24,6 +24,9 @@ title: Psych-AD
 minimal_mistakes_skin: default
 search: true
 
+logo: "/assets/images/PsychAD_logo_notext.png"
+masthead_title: "PsychAD"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
