@@ -21,15 +21,17 @@ title: Psych-AD
 #   Google search results) and in your feed.xml site description.
 # twitter_username: username
 # github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
+# logo
 logo: "/assets/images/PsychAD_logo_notext.png"
 masthead_title: "PsychAD"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
