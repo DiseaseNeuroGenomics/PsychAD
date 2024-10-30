@@ -4,6 +4,16 @@ permalink: /research/
 title: "Research"
 ---
 
+
+Index No: CAPSTONE
+
+Title: Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases
+
+Authors: Donghoon Lee, Mikaela Koutrouli, Nicolas Y. Masse, Gabriel E. Hoffman, Seon Kinrot, Xinyi Wang, Prashant N.M., Milos Pjanic, Tereza Clarence, Fotios Tsetsos, Deepika Mathur, David Burstein, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Jennifer Monteiro Fortes, Pavel Katsel, Pavan K. Auluck, Lisa L. Barnes, Stefano Marenco, David A. Bennett, PsychAD Consortium, Lars Juhl Jensen, Kiran Girdhar, Georgios Voloudakis, Vahram Haroutunian, Jaroslav Bendl, John F. Fullard, Panos Roussos
+
+![Capstone](assets/images/PsychAD_Graphical_Abstract.png)
+
+
 **PsychAD Package of Publications**
 
 | Key | Title | Journal | Authors |
