@@ -10,11 +10,11 @@ title: "Research"
 | --- | --- | --- | --- |
 | [CAPSTONE](#capstone) | Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases | TBD | Lee et al |
 | [AGING](#aging) | A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan | TBD | Yang et al |
-| [DISEASE1](#disease1) | Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases | TBD | TBD |
+| [DISEASE1](#disease1) | Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases | TBD | Porras et al |
 | [DISEASE2](#disease2) | Decoding Pathogenic and Protective Gene Regulatory Interactions in Alzheimer's Disease | TBD | TBD |
 | [DISEASE3](#disease3) | Phenotype Scoring of Population Scale Single-Cell Data Dissects Alzheimer's Disease Complexity | TBD | He et al |
-| [DISEASE4](#disease4) | Single-cell transcriptomic dissection of 1,494 human brains reveals personalized functional genomics for Alzheimer’s disease phenotypes | TBD | Chandrashekar et al |
-| [GV1](#gv1) | Single nucleus, multi-ancestry atlas of genetic regulation of gene expression in the human brain | TBD | Zeng et al |
+| [DISEASE4](#disease4) | Personalized Single-cell Transcriptomics Reveals Molecular Diversity in Alzheimer's Disease | TBD | Chandrashekar et al |
+| [GV1](#gv1) | Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain | TBD | Zeng et al |
 | [GV2](#gv2) | Single-nucleus transcriptome-wide association study of human brain disorders | TBD | Venkatesh et al |
 | [METHOD1](#method1) | Fast, flexible analysis of compositional data with crumblr | TBD | Hoffman et al |
 | [METHOD2](#method2) | Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy | TBD | Ramaswamy et al |
@@ -43,7 +43,7 @@ The dorsolateral prefrontal cortex is central to higher cognitive functions and 
 
 ## DISEASE1
 
-### Title TBD
+### Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases
 
 *Authors TBD*
 
@@ -53,7 +53,7 @@ Abstract TBD
 
 ## DISEASE2
 
-### Title TBD
+### Decoding Pathogenic and Protective Gene Regulatory Interactions in Alzheimer's Disease
 
 *Authors TBD*
 
@@ -63,7 +63,7 @@ Abstract TBD
 
 ## DISEASE3
 
-### Title TBD
+### Phenotype Scoring of Population Scale Single-Cell Data Dissects Alzheimer's Disease Complexity
 
 *Authors TBD*
 
@@ -73,7 +73,7 @@ Abstract TBD
 
 ## DISEASE4
 
-### Title TBD
+### Personalized Single-cell Transcriptomics Reveals Molecular Diversity in Alzheimer's Disease
 
 *Authors TBD*
 
@@ -83,7 +83,7 @@ Abstract TBD
 
 ## GV1
 
-### Title TBD
+### Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain
 
 *Authors TBD*
 
@@ -93,7 +93,7 @@ Abstract TBD
 
 ## GV2
 
-### Title TBD
+### Single-nucleus transcriptome-wide association study of human brain disorders
 
 *Authors TBD*
 
