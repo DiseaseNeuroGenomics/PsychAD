@@ -35,7 +35,7 @@ Neurodegenerative and neuropsychiatric diseases impose a significant societal an
 
 ### A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan
 
-*Hui Yang, Tereza Clarence, Madeline R. Scott, Prashant N.M., Xinyi Wang, Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, PsychAD Consortium, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos*
+*Hui Yang, Tereza Clarence, Madeline R. Scott,, Prashant N.M., Xinyi Wang, Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, PsychAD Consortium, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos*
 
 ![Aging](/assets/images/PsychAD_Aging.png)
 
@@ -45,11 +45,11 @@ The dorsolateral prefrontal cortex is central to higher cognitive functions and 
 
 ### Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases
 
-*Authors TBD*
+*Christian Porras, Lyra Sheu, Pramod Bharadwaj Chandrashekar, Roman Kosoy, Milos Pjanic, Jaroslav Bendl, Prashant N.M., Karen Therrien, Deepika Mathur, Steven P. Kleopoulos, Zhiping Shao, Marcela Alvia, Clara Casey, Aram Hong, Stathis Argyriou, David Bennett, George Voloudakis, Vahram Haroutunian, Gabriel E. Hoffman, John F. Fullard, Kiran Girdhar, Daifeng Wang, Donghoon Lee, Panos Roussos*
 
 ![DISEASE1](/assets/images/PsychAD_Disease1.png)
 
-Abstract TBD
+Cell-cell Interactions (CCIs) mediate transcriptomic dysregulation by responding to and altering the microenvironment thereby contributing to the progression of multiple neuropsychiatric (NPD) and neurodegenerative (NDD) diseases, including Alzheimer's disease (AD), schizophrenia, and bipolar disorder. Recent studies suggest a significant portion of cellular and molecular mechanisms are shared across neurological disorders, despite distinct phenotypic features. Firstly, we focused on generating reproducible CCI networks from a large-scale human brain disease atlas. We inferred over 38 million CCIs between 27 neuronal, glial, and immune cell-types using the PsychAD single-nucleus RNA-seq cohort. We validate these CCIs by ensuring inferred ligand-receptor pairs are colocalized with Visium spatial transcriptomic assays. Secondly, we prioritize 3,063 differentially regulated CCIs mediating eight NPDs and NDDs after accounting for biological and technical variations with linear mixed-effects regression models. We show that during the pathogenesis and progression of NPDs and NDDs, a significant portion of genetic and epigenetic subprocesses are shared and driven by CCIs. We show that about 9% of disease-associated CCIs are shared between NDDs and NPDs, with predominantly immune-glial CCIs differentially dysregulated in NDDs. In contrast, neuronal-glial CCIs are predominantly differentially dysregulated in NPDs. Next, we examined the impact of genetic variation on cell-cell signaling to identify CCI quantitative trait loci (cciQTL). 4429 cciQTLs showed a significant association between CCI scores and the genetic variation in neighboring SNPs of ligand and receptor genes within the CCI. These associations were estimated separately for ligand and receptor genes from 16 sender-receiver cell pairs. A substantial fraction (82.8%) of CCI Genes (cciGenes) showed cell type specificity indicating the presence of unique signaling patterns between specific cell types. Finally, we combine the identified CCIs and whole-genome sequencing into an interpretable deep-learning model to enable personalized NPD and NDD risk prediction from individual genotypes. Our results move beyond independent single-gene analyses, incorporating ligand-receptor gene-pair and cell type-specific interactions to elucidate the higher-order molecular mechanisms underlying NPDs and NDDs, identifying targets for pharmacological intervention.
 
 ## DISEASE2
 
@@ -59,65 +59,65 @@ Abstract TBD
 
 ![DISEASE2](/assets/images/PsychAD_Disease2.png)
 
-Abstract TBD
+Alzheimer’s Disease (AD) pathogenesis, marked by misfolded protein accumulation and cognitive decline, contrasts with resilience in individuals who maintain cognitive function despite high proteinopathy. Here, we construct a comprehensive AD gene regulatory network (GRN) atlas of the dorsolateral prefrontal cortex across 244 AD, 120 normal aging, and 94 resilient individuals, spanning 27 cell types and 9 clinical measures of AD severity. Using the PsychAD single-nucleus RNA-seq cohort with over 3 million nuclei, we identify 162 transcription factor regulators and prioritize 53 cell type- and disease state-defining regulons by applying a linear mixed model to account for biological and technical variability. Comparative network topology analyses across Braak and CERAD staging (Tau and Aβ burden), age, dementia, and cognitive decline reveal shared and distinct regulatory interactions across AD hallmarks, highlighting key pathogenic transcription factor-target interactions. Next, we build GRNs for AD, control, and resilient groups, performing differential network analysis to identify cell type-specific master regulators that drive AD progression and resilience. Finally, we employ a graph machine learning model to prioritize these master regulators and their target genes. Our findings elucidate cell type-specific gene regulatory networks underlying AD progression and resilience, suggesting potential therapeutic targets for intervention and prevention.
 
 ## DISEASE3
 
 ### Phenotype Scoring of Population Scale Single-Cell Data Dissects Alzheimer's Disease Complexity
 
-*Authors TBD*
+*Chenfeng He, Athan Z. Li, Kalpana Hanthanan Arachchilage, Chirag Gupta, Xiang Huang, Xinyu Zhao, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang*
 
 ![DISEASE3](/assets/images/PsychAD_Disease3.png)
 
-Abstract TBD
+The complexity of Alzheimer’s disease (AD) manifests in diverse clinical phenotypes, including cognitive impairment and neuropsychiatric symptoms (NPSs), yet their etiology remains elusive. Addressing this, we identified phenotype-associated cells (PACs) from 6.3 million nuclei in the prefrontal cortex of 1,494 brains, spanning various AD-related phenotypes. Our deep learning framework, called the Phenotype Associated Single Cell encoder (PASCode), pinpointed ~1.5 million PACs across 27 distinct brain cell subclasses associated with various AD-related phenotypes. Analysis of these PACs revealed the upregulation of an astrocyte subtype with neuroprotective functions in AD-resilient donors. Cross-linking PACs of multiple phenotypes also uncovered a subpopulation of protoplasmic astrocytes that alter their gene expression and regulation in AD donors with depression. Uncovering these cellular and molecular mechanisms underlying the diverse AD phenotypes can offer insights into novel diagnostic markers and therapeutic targets. All identified PACs, along with cell type and gene expression data, are compiled into an AD-phenotypic single-cell atlas for the research community.
 
 ## DISEASE4
 
 ### Personalized Single-cell Transcriptomics Reveals Molecular Diversity in Alzheimer's Disease
 
-*Authors TBD*
+*Pramod Bharadwaj Chandrashekar, Sayali Anil Alatkar, Noah Cohen Kalafut, Ting Jin, Chirag Gupta, Ryan Burzak, Xiang Huang, Shuang Liu, Athan Z. Li, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang*
 
 ![DISEASE4](/assets/images/PsychAD_Disease4.png)
 
-Abstract TBD
+Precision medicine for brain diseases faces many challenges, including understanding the heterogeneity of disease phenotypes. To address this, we present iBrainMap for personalized functional genomics analysis of Alzheimer’s Disease using population snRNA-seq data. Applying iBrainMap to PsychAD data (n=1494), we constructed personalized functional genomic graphs (PFGs) for each individual, incorporating cell type interactions and regulatory information. Using a knowledge-guided graph neural network model, we extracted personalized graph embeddings and importance scores for cell types, genes, and their interactions. Using the graph embeddings, we identified novel AD population subtypes and trajectories. For e.g., population-level AD progression trajectories were closely correlated with plaque pathology and clinical dementia scores. Personalized prioritization of cell types, genes, and their interactions revealed functional genomic subgrouping in disease phenotypes, e.g., identifying ancestry-specific biological pathways. We also identified cell type gene regulatory network changes associated with genetic variants (grQTLs), providing deeper insights into regulatory mechanisms compared to traditional QTL analysis. Our findings are compiled into a comprehensive personalized functional genomic atlas for AD.
 
 ## GV1
 
 ### Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain
 
-*Authors TBD*
+*Biao Zeng, Hui Yang,Prashant N.M., Sanan Venkatesh, Deepika Mathur, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, PsychAD Consortium, Georgios Voloudakis, Donghoon Lee, John F. Fullard, Jaroslav Bendl, Kiran Girdhar, Gabriel E. Hoffman, Panos Roussos*
 
 ![GV1](/assets/images/PsychAD_GV1.png)
 
-Abstract TBD
+Genetic risk variants for common diseases are predominantly located in non-coding regulatory regions and modulate gene expression.  Although bulk tissue studies have elucidated shared mechanisms of regulatory and disease-associated genetics, the cellular specificity of these mechanisms remains largely unexplored.  This study presents a comprehensive single-nucleus multi-ancestry atlas of genetic regulation of gene expression in the human prefrontal cortex, comprising 5.6 million nuclei from 1,384 donors of diverse ancestries.  Through multi-resolution analyses spanning eight major cell classes and 27 subclasses, we identify genetic regulation for 14,258 genes, with 857 showing cell type-specific regulatory effects at the class level and 981 at the subclass level.  Colocalization of genetic variants associated with gene regulation and disease traits uncovers novel cell type-specific genes implicated in Alzheimer's disease, schizophrenia, and other disorders, which were not detectable in bulk tissue analyses.  Analysis of dynamic genetic regulation at the single nucleus level identifies 2,073 genes with regulatory effects that vary across developmental trajectories, inferred from a broad age range of donors.  We also uncover 1,655 genes with trans-regulatory effects, revealing distal regulation of gene expression.  This high-resolution atlas provides unprecedented insight into the cell type-specific regulatory architecture of the human brain, and offers novel mechanistic targets for understanding the genetic basis of neuropsychiatric and neurodegenerative diseases.
 
 ## GV2
 
 ### Single-nucleus transcriptome-wide association study of human brain disorders
 
-*Authors TBD*
+*Sanan Venkatesh, Zhenyi Wu, Marios Anyfantakis, Christian Dillard, Prashant N.M., David Burstein, Deepika Mathur, Roman Kosoy, Chris Chatzinakos, Bukola Ajanaku, Fotis Tsetsos, Biao Zeng, Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, VA Million Veteran Program, PsychAD Consortium, Tim Bigdeli, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, Kiran Girdhar, Jaroslav Bendl, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Georgios Voloudakis, Panos Roussos*
 
 ![GV2](/assets/images/PsychAD_GV2.png)
 
-Abstract TBD
+Neuropsychiatric and neurodegenerative disorders exhibit cell-type-specific characteristics, yet most transcriptome-wide association studies have been constrained by the use of homogenate brain tissue, limiting their resolution and power. Here, we present a single-nucleus transcriptome-wide association study (snTWAS) leveraging single-nucleus RNA sequencing of over 6 million nuclei from the dorsolateral prefrontal cortex of 1,494 donors across three ancestries—European, African, and Admixed American. We constructed ancestry-specific single-nucleus-derived transcriptomic imputation models (snTIMs) including up to 27 non-overlapping cellular populations, enhancing the resolution of genetically regulated gene expression (GReX) in the brain and uncovering novel gene-trait associations across 12 neuropsychiatric and neurodegenerative traits. Our snTWAS framework revealed cell-type-specific dysregulation of GReX, identifying over 4,000 novel gene-trait associations not detected by bulk tissue approaches. By applying these snTIMs to the Million Veteran Program, we validated major findings and explored the pleiotropy of cell-type-specific GReX, revealing cross-ancestry concordance and fine-mapping causal genes. This approach enhances the discovery of biologically relevant pathways and gene targets, highlighting the importance of cell-type resolution and ancestry-specific models in understanding the genetic architecture of complex brain disorders.
 
 ## METHOD2
 
 ### Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy
 
-*Authors TBD*
+*Vivek Gopal Ramaswamy, Monika Ahirwar, Genadi Ryan, Brittany Dugger, Osama Al Dalahmah,  Maxim Signaevsky, Vahram Haroutunian , Steven Finkbeiner*
 
 ![METHOD2](/assets/images/PsychAD_Method2.png)
 
-Abstract TBD
+Characterizing neuropathology in Alzheimer’s disease (AD) is laborious and time consuming, and susceptible to intra- and inter-observer variability. The lack of high throughput approaches to reliably assess neuropathology hampers efforts to use pathology as a means to link clinical features of AD to molecular pathogenesis in the ever growing datasets of  AD patients. To remove this roadblock, we designed a computational pipeline that analyzes postmortem tissue from AD patients in a fully automated and unbiased manner in  only 20 minutes per whole slide image, a fraction of the time taken with conventional approaches. We trained algorithms to detect, classify, and segment different types of amyloid pathology with a Mask Regional-Convolutional Neural Network. To establish ground truth for training and validation, we developed a tool that collects consensus annotations of neuropathology experts. Our algorithms accurately identified amyloid pathology in samples unrelated to the training dataset, indicating that they detect generalizable pathology features. Our  design makes it possible to reconstruct a map of pathology across the entire whole slide image, facilitating neuropathological analyses at multiple scales. Quantitative measurements of amyloid pathology are correlated with the severity of AD measured by standard approaches. Our computational pipeline should enable rapid, unbiased, inexpensive, quantitative and comprehensive neuropathological analysis of large tissue collections and integration with orthogonal clinical and multi omic measurements.
 
 ## RESOURCE
 
 ### Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution
 
-*Authors TBD*
+*John F. Fullard, Prashant N.M., Donghoon Lee, Deepika Mathur, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Tereza Clarence, David Burstein, Sanan Venkatesh, Pavan K. Auluck, Lisa L. Barnes, David A. Bennett, Stefano Marenco, PsychAD Consortium, Kiran Girdhar, Vahram Haroutunian, Gabriel E. Hoffman, Georgios Voloudakis, Jaroslav Bendl, Panos Roussos*
 
 ![RESOURCE](/assets/images/PsychAD_Resource.png)
 
-Abstract TBD
+Neurodegenerative diseases and serious mental illnesses often exhibit overlapping characteristics, highlighting the potential for shared underlying mechanisms. To facilitate a deeper understanding of these diseases and pave the way for more effective treatments, we have generated a population-scale multi-omics dataset consisting of genotype and single-nucleus transcriptome data from the prefrontal cortex of frozen human brain specimens. Encompassing over 6.3 million nuclei from 1,494 donors, our dataset represents a diverse range of neurodegenerative and serious mental illnesses, including Alzheimer's and Parkinson’s diseases, schizophrenia, bipolar disorder and diffuse Lewy body dementia, as well as neurotypical controls. Notably, 48% of all donors displayed neuropsychiatric symptoms, while over 21% received multiple diagnoses. The dataset presents an unprecedented opportunity to investigate both common and distinct molecular pathways spanning a range of brain-related disorders. We have performed stringent preprocessing and quality controls, ensuring the reliability and usability of the data. As a commitment to fostering collaborative research, we provide this valuable resource as an online repository, enabling widespread analyses across the scientific community.
 
