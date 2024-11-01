@@ -85,7 +85,7 @@ Precision medicine for brain diseases faces many challenges, including understan
 
 ### Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain
 
-*Biao Zeng, Hui Yang,Prashant N.M., Sanan Venkatesh, Deepika Mathur, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, PsychAD Consortium, Georgios Voloudakis, Donghoon Lee, John F. Fullard, Jaroslav Bendl, Kiran Girdhar, Gabriel E. Hoffman, Panos Roussos*
+*Biao Zeng, Hui Yang, Prashant N.M., Sanan Venkatesh, Deepika Mathur, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, PsychAD Consortium, Georgios Voloudakis, Donghoon Lee, John F. Fullard, Jaroslav Bendl, Kiran Girdhar, Gabriel E. Hoffman, Panos Roussos*
 
 ![GV1](/assets/images/PsychAD_GV1.png)
 
@@ -105,7 +105,7 @@ Neuropsychiatric and neurodegenerative disorders exhibit cell-type-specific char
 
 ### Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy
 
-*Vivek Gopal Ramaswamy, Monika Ahirwar, Genadi Ryan, Brittany Dugger, Osama Al Dalahmah,  Maxim Signaevsky, Vahram Haroutunian , Steven Finkbeiner*
+*Vivek Gopal Ramaswamy, Monika Ahirwar, Genadi Ryan, Brittany Dugger, Osama Al Dalahmah,  Maxim Signaevsky, Vahram Haroutunian, Steven Finkbeiner*
 
 ![METHOD2](/assets/images/PsychAD_Method2.png)
 
