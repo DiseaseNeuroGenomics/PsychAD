@@ -4,6 +4,9 @@ permalink: /people/
 title: "People"
 ---
 
+**PsychAD Network**
+![Network](/assets/images/PsychAD_Network.png)
+
 **PsychAD Consortium Authors**
 
 | **Name** | **Affiliations** |
