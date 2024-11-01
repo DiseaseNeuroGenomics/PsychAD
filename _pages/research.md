@@ -35,7 +35,7 @@ Neurodegenerative and neuropsychiatric diseases impose a significant societal an
 
 ### A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan
 
-*Hui Yang, Tereza Clarence, Madeline R. Scott,, Prashant N.M., Xinyi Wang, Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, PsychAD Consortium, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos*
+*Hui Yang, Tereza Clarence, Madeline R. Scott, Prashant N.M., Xinyi Wang, Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, PsychAD Consortium, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos*
 
 ![Aging](/assets/images/PsychAD_Aging.png)
 
