@@ -101,6 +101,16 @@ Genetic risk variants for common diseases are predominantly located in non-codin
 
 Neuropsychiatric and neurodegenerative disorders exhibit cell-type-specific characteristics, yet most transcriptome-wide association studies have been constrained by the use of homogenate brain tissue, limiting their resolution and power. Here, we present a single-nucleus transcriptome-wide association study (snTWAS) leveraging single-nucleus RNA sequencing of over 6 million nuclei from the dorsolateral prefrontal cortex of 1,494 donors across three ancestries—European, African, and Admixed American. We constructed ancestry-specific single-nucleus-derived transcriptomic imputation models (snTIMs) including up to 27 non-overlapping cellular populations, enhancing the resolution of genetically regulated gene expression (GReX) in the brain and uncovering novel gene-trait associations across 12 neuropsychiatric and neurodegenerative traits. Our snTWAS framework revealed cell-type-specific dysregulation of GReX, identifying over 4,000 novel gene-trait associations not detected by bulk tissue approaches. By applying these snTIMs to the Million Veteran Program, we validated major findings and explored the pleiotropy of cell-type-specific GReX, revealing cross-ancestry concordance and fine-mapping causal genes. This approach enhances the discovery of biologically relevant pathways and gene targets, highlighting the importance of cell-type resolution and ancestry-specific models in understanding the genetic architecture of complex brain disorders.
 
+## METHOD1
+
+### Fast, flexible analysis of compositional data with crumblr
+
+*Gabriel E. Hoffman, Donghoon Lee, Panos Roussos*
+
+![METHOD1](/assets/images/PsychAD_Method1.png)
+
+Changes in cell type composition play an important role in health and disease.  Recent advances in single-cell technology have enabled measurement of cell type composition at increasing cell lineage resolution across large cohorts of individuals.  Yet this raises new challenges for statistical analysis of these compositional data to identify changes associated with a phenotype.  We introduce crumblr (diseaseneurogenomics.github.io/crumblr), a scalable statistical method for analyzing count ratio data using precision-weighted linear models incorporating random effects for complex study designs.  Uniquely, crumblr performs tests of association at multiple levels of the cell lineage hierarchy using multivariate regression to increase power over tests of a single cell component.  In simulations, crumblr increases power compared to existing methods, while controlling the false positive rate.  We demonstrate the application of crumblr to published single-cell RNA-seq datasets for tuberculosis infection in T-cells, SARS-CoV-2 infection in blood, and aging of the human brain.
+
 ## METHOD2
 
 ### Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy
@@ -110,6 +120,16 @@ Neuropsychiatric and neurodegenerative disorders exhibit cell-type-specific char
 ![METHOD2](/assets/images/PsychAD_Method2.png)
 
 Characterizing neuropathology in Alzheimer’s disease (AD) is laborious and time consuming, and susceptible to intra- and inter-observer variability. The lack of high throughput approaches to reliably assess neuropathology hampers efforts to use pathology as a means to link clinical features of AD to molecular pathogenesis in the ever growing datasets of  AD patients. To remove this roadblock, we designed a computational pipeline that analyzes postmortem tissue from AD patients in a fully automated and unbiased manner in  only 20 minutes per whole slide image, a fraction of the time taken with conventional approaches. We trained algorithms to detect, classify, and segment different types of amyloid pathology with a Mask Regional-Convolutional Neural Network. To establish ground truth for training and validation, we developed a tool that collects consensus annotations of neuropathology experts. Our algorithms accurately identified amyloid pathology in samples unrelated to the training dataset, indicating that they detect generalizable pathology features. Our  design makes it possible to reconstruct a map of pathology across the entire whole slide image, facilitating neuropathological analyses at multiple scales. Quantitative measurements of amyloid pathology are correlated with the severity of AD measured by standard approaches. Our computational pipeline should enable rapid, unbiased, inexpensive, quantitative and comprehensive neuropathological analysis of large tissue collections and integration with orthogonal clinical and multi omic measurements.
+
+## METHOD3
+
+### Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet
+
+*Gabriel E. Hoffman, Donghoon Lee, Jaroslav Bendl, Prashant N.M., Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, Sanan Venkatesh, Georgios Voloudakis, Vahram Haroutunian, John F. Fullard, Panos Roussos*
+
+![METHOD3](/assets/images/PsychAD_Method3.png)
+
+Advances in single-cell and -nucleus transcriptomics have enabled generation of increasingly large-scale datasets from hundreds of subjects and millions of cells.  These studies promise to give unprecedented insight into the cell type specific biology of human disease.  Yet performing differential expression analyses across subjects remains difficult due to challenges in statistical modeling of these complex studies and scaling analyses to large datasets. Our open-source R package dreamlet (DiseaseNeurogenomics.github.io/dreamlet) uses a pseudobulk approach based on precision-weighted linear mixed models to identify genes differentially expressed with traits across subjects for each cell cluster.  Designed for data from large cohorts, dreamlet is substantially faster and uses less memory than existing workflows, while supporting complex statistical models and controlling the false positive rate.  We demonstrate computational and statistical performance on published datasets, and a novel dataset of 1.4M single nuclei from postmortem brains of 150 Alzheimer’s disease cases and 149 controls.
 
 ## RESOURCE
 
