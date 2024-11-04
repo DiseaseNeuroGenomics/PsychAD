@@ -8,7 +8,7 @@ title: "Research"
 
 | Key | Title | Journal | Authors |
 | --- | --- | --- | --- |
-| [CAPSTONE](#capstone) | Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases | TBD | Lee et al |
+| [CAPSTONE](#capstone) | Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases | [![medRxiv](/assets/images/medRxiv.png){: height="20" }](https://doi.org/10.1101/2024.10.31.24316513) | Lee et al |
 | [AGING](#aging) | A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan | TBD | Yang et al |
 | [DISEASE1](#disease1) | Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases | TBD | Porras et al |
 | [DISEASE2](#disease2) | Decoding Pathogenic and Protective Gene Regulatory Interactions in Alzheimer's Disease | TBD | TBD |
