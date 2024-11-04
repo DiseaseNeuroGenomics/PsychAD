@@ -27,6 +27,8 @@ title: "Research"
 
 *Donghoon Lee, Mikaela Koutrouli, Nicolas Y. Masse, Gabriel E. Hoffman, Seon Kinrot, Xinyi Wang, Prashant N.M., Milos Pjanic, Tereza Clarence, Fotios Tsetsos, Deepika Mathur, David Burstein, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Jennifer Monteiro Fortes, Pavel Katsel, Pavan K. Auluck, Lisa L. Barnes, Stefano Marenco, David A. Bennett, PsychAD Consortium, Lars Juhl Jensen, Kiran Girdhar, Georgios Voloudakis, Vahram Haroutunian, Jaroslav Bendl, John F. Fullard, Panos Roussos*
 
+doi: [https://doi.org/10.1101/2024.10.31.24316513](https://doi.org/10.1101/2024.10.31.24316513)
+
 ![Capstone](/assets/images/PsychAD_Capstone.png)
 
 Neurodegenerative and neuropsychiatric diseases impose a significant societal and public health burden. However, our understanding of the molecular mechanisms underlying these highly complex conditions remains limited. To gain deeper insights into the etiology of different brain diseases, we used specimens from 1,494 unique donors to generate a population-scale single-cell transcriptomic atlas of the human dorsolateral prefrontal cortex (DLPFC), comprising over 6.3 million individual nuclei. The cohort includes neurotypical controls as well as donors affected by eight common and complex brain disorders: Alzheimer’s disease (AD), diffuse Lewy body disease (DLBD), vascular dementia (Vas), Parkinson’s disease (PD), tauopathy, frontotemporal dementia, schizophrenia, and bipolar disorder. We show that inter-individual variation accounts for a substantial portion of gene expression variation in the DLPFC. By comparing transcriptomic variation across diseases, we reveal universal signatures enriched in basic cellular functions such as mRNA splicing and protein localization. After discounting these cross-disease signatures, we show strong genetic and transcriptomic concordance among AD, DLBD, Vas, and PD, largely driven by alteration of synaptic signaling functions in neurons. Furthermore, we characterize transcriptomic variation among different AD phenotypes that were distinct from healthy aging. We uncover mitigating effects of interneurons and aggravating effects of immune and vascular cells in AD dementia. Further exploring the effect of the neuropsychiatric symptoms frequently accompanying AD, we identify a link to deep layer excitatory neurons. By constructing transcriptome trajectories that capture AD progression, we show cell-type specific responses implicated in early and late stages of AD. Our atlas provides an unprecedented perspective of the transcriptomic landscape in neurodegenerative and neuropsychiatric diseases, shedding light on shared and distinct processes involving the neuro-immune-vascular systems, and identifying potential targets for therapeutic intervention.
@@ -67,6 +69,8 @@ Alzheimer’s Disease (AD) pathogenesis, marked by misfolded protein accumulatio
 
 *Chenfeng He, Athan Z. Li, Kalpana Hanthanan Arachchilage, Chirag Gupta, Xiang Huang, Xinyu Zhao, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang*
 
+doi: [https://doi.org/10.1101/2024.11.01.24316586](https://doi.org/10.1101/2024.11.01.24316586)
+
 ![DISEASE3](/assets/images/PsychAD_Disease3.png)
 
 The complexity of Alzheimer’s disease (AD) manifests in diverse clinical phenotypes, including cognitive impairment and neuropsychiatric symptoms (NPSs), yet their etiology remains elusive. Addressing this, we identified phenotype-associated cells (PACs) from 6.3 million nuclei in the prefrontal cortex of 1,494 brains, spanning various AD-related phenotypes. Our deep learning framework, called the Phenotype Associated Single Cell encoder (PASCode), pinpointed ~1.5 million PACs across 27 distinct brain cell subclasses associated with various AD-related phenotypes. Analysis of these PACs revealed the upregulation of an astrocyte subtype with neuroprotective functions in AD-resilient donors. Cross-linking PACs of multiple phenotypes also uncovered a subpopulation of protoplasmic astrocytes that alter their gene expression and regulation in AD donors with depression. Uncovering these cellular and molecular mechanisms underlying the diverse AD phenotypes can offer insights into novel diagnostic markers and therapeutic targets. All identified PACs, along with cell type and gene expression data, are compiled into an AD-phenotypic single-cell atlas for the research community.
@@ -76,6 +80,8 @@ The complexity of Alzheimer’s disease (AD) manifests in diverse clinical pheno
 ### Personalized Single-cell Transcriptomics Reveals Molecular Diversity in Alzheimer's Disease
 
 *Pramod Bharadwaj Chandrashekar, Sayali Anil Alatkar, Noah Cohen Kalafut, Ting Jin, Chirag Gupta, Ryan Burzak, Xiang Huang, Shuang Liu, Athan Z. Li, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang*
+
+doi: [https://doi.org/10.1101/2024.11.01.24316589](https://doi.org/10.1101/2024.11.01.24316589)
 
 ![DISEASE4](/assets/images/PsychAD_Disease4.png)
 
@@ -126,6 +132,8 @@ Characterizing neuropathology in Alzheimer’s disease (AD) is laborious and tim
 ### Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet
 
 *Gabriel E. Hoffman, Donghoon Lee, Jaroslav Bendl, Prashant N.M., Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, Sanan Venkatesh, Georgios Voloudakis, Vahram Haroutunian, John F. Fullard, Panos Roussos*
+
+doi: [https://doi.org/10.1101/2023.03.17.533005](https://doi.org/10.1101/2023.03.17.533005)
 
 ![METHOD3](/assets/images/PsychAD_Method3.png)
 
