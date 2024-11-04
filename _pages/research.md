@@ -18,7 +18,7 @@ title: "Research"
 | [GV2](#gv2) | Single-nucleus transcriptome-wide association study of human brain disorders | Venkatesh et al | TBD | TBD |
 | [METHOD1](#method1) | Fast, flexible analysis of compositional data with crumblr | Hoffman et al | TBD | TBD |
 | [METHOD2](#method2) | Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy | Ramaswamy et al | TBD | TBD |
-| [METHOD3](#method3) | Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet | Hoffman et al | Nat. Comm. | ![bioRxiv](/assets/images/bioRxiv.jpg){: width="50" }](https://doi.org/10.1101/2023.03.17.533005) |
+| [METHOD3](#method3) | Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet | Hoffman et al | Nat. Comm. | [![bioRxiv](/assets/images/bioRxiv.jpg){: width="50" }](https://doi.org/10.1101/2023.03.17.533005) |
 | [RESOURCE](#resource) | Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution | Fullard et al | Scientific Data | TBD |
 
 ## CAPSTONE
