@@ -21,4 +21,4 @@ excerpt: "Understanding the Molecular Mechanisms that Contribute to Neuropsychia
 
 **About NIA's Psych-AD program**
 
-The Psych-AD program brings together projects focused on uncovering the molecular mechanisms behind neuropsychiatric symptoms (NPS) in Alzheimer’s disease (AD) and related dementias (ADRD). By combining epidemiologic, multi-omic, and mechanistic research through systems biology, Psych-AD aims to identify new therapeutic targets and biomarkers for NPS in AD/ADRD. The program is supported by the National Institute on Aging via funding from PAR-18-596 and RFA-MH-19-510.
+The Psych-AD program brings together projects focused on uncovering the molecular mechanisms behind neuropsychiatric symptoms (NPS) in Alzheimer’s disease (AD) and related dementias (ADRD). By combining epidemiologic, multi-omic, and mechanistic research through systems biology, Psych-AD aims to identify new therapeutic targets and biomarkers for NPS in AD/ADRD. The program is supported by the National Institute on Aging via funding from [PAR-23-207](https://grants.nih.gov/grants/guide/pa-files/PAR-23-207.html) and RFA-MH-19-510.
