@@ -39,6 +39,8 @@ Neurodegenerative and neuropsychiatric diseases impose a significant societal an
 
 *Hui Yang, Tereza Clarence, Madeline R. Scott, Prashant N.M., Xinyi Wang, Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, PsychAD Consortium, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos*
 
+doi: [https://doi.org/10.1101/2024.11.06.24316592](https://doi.org/10.1101/2024.11.06.24316592)
+
 ![Aging](/assets/images/PsychAD_Aging.png)
 
 The dorsolateral prefrontal cortex is central to higher cognitive functions and is particularly vulnerable to age-related decline. To advance our understanding of the molecular mechanisms underlying brain development, maturation, and aging, we constructed a detailed single-cell transcriptomic atlas of the human dorsolateral prefrontal cortex, encompassing over 1.3 million nuclei from 284 postmortem samples spanning the full human lifespan (0-97 years). This atlas reveals distinct phases of transcriptomic activity: a dynamic developmental period, stabilization during midlife, and subtle yet coordinated changes in late adulthood. Modeling non-linear age trends across the lifespan shows ten distinct trajectories of the entire transcriptome from all cell types, with notable findings in neurons and microglia, linked to neurodevelopmental disorders and Alzheimer’s disease risk, respectively. Moreover, excitatory neurons exhibit a convergence of gene expression patterns across the lifespan, suggesting the emergence of a common molecular signature of aging. Pseudotime analysis tracing the progression of cellular lineages throughout life reveals key gene clusters with dynamic expression changes that reflect development, maturation, and aging, as well as their connection to brain-related diseases. We uncover significant circadian rhythm reprogramming in late adulthood, characterized by disruption of core clock gene rhythmicity and the emergence of new rhythmic patterns, particularly within microglia and oligodendrocytes. This comprehensive single-cell atlas provides a baseline for understanding the molecular transitions from development through successful aging in the human dorsolateral prefrontal cortex.
@@ -93,6 +95,8 @@ Precision medicine for brain diseases faces many challenges, including understan
 
 *Biao Zeng, Hui Yang, Prashant N.M., Sanan Venkatesh, Deepika Mathur, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, PsychAD Consortium, Georgios Voloudakis, Donghoon Lee, John F. Fullard, Jaroslav Bendl, Kiran Girdhar, Gabriel E. Hoffman, Panos Roussos*
 
+doi: [https://doi.org/10.1101/2024.11.02.24316590](https://doi.org/10.1101/2024.11.02.24316590)
+
 ![GV1](/assets/images/PsychAD_GV1.png)
 
 Genetic risk variants for common diseases are predominantly located in non-coding regulatory regions and modulate gene expression.  Although bulk tissue studies have elucidated shared mechanisms of regulatory and disease-associated genetics, the cellular specificity of these mechanisms remains largely unexplored.  This study presents a comprehensive single-nucleus multi-ancestry atlas of genetic regulation of gene expression in the human prefrontal cortex, comprising 5.6 million nuclei from 1,384 donors of diverse ancestries.  Through multi-resolution analyses spanning eight major cell classes and 27 subclasses, we identify genetic regulation for 14,258 genes, with 857 showing cell type-specific regulatory effects at the class level and 981 at the subclass level.  Colocalization of genetic variants associated with gene regulation and disease traits uncovers novel cell type-specific genes implicated in Alzheimer's disease, schizophrenia, and other disorders, which were not detectable in bulk tissue analyses.  Analysis of dynamic genetic regulation at the single nucleus level identifies 2,073 genes with regulatory effects that vary across developmental trajectories, inferred from a broad age range of donors.  We also uncover 1,655 genes with trans-regulatory effects, revealing distal regulation of gene expression.  This high-resolution atlas provides unprecedented insight into the cell type-specific regulatory architecture of the human brain, and offers novel mechanistic targets for understanding the genetic basis of neuropsychiatric and neurodegenerative diseases.
@@ -102,6 +106,8 @@ Genetic risk variants for common diseases are predominantly located in non-codin
 ### Single-nucleus transcriptome-wide association study of human brain disorders
 
 *Sanan Venkatesh, Zhenyi Wu, Marios Anyfantakis, Christian Dillard, Prashant N.M., David Burstein, Deepika Mathur, Roman Kosoy, Chris Chatzinakos, Bukola Ajanaku, Fotis Tsetsos, Biao Zeng, Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, VA Million Veteran Program, PsychAD Consortium, Tim Bigdeli, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, Kiran Girdhar, Jaroslav Bendl, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Georgios Voloudakis, Panos Roussos*
+
+doi: [https://doi.org/10.1101/2024.11.04.24316495](https://doi.org/10.1101/2024.11.04.24316495)
 
 ![GV2](/assets/images/PsychAD_GV2.png)
 
