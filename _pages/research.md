@@ -9,13 +9,13 @@ title: "Research"
 | Key | Title | Authors | Journal | Preprint |
 | --- | --- | --- | --- | --- |
 | [CAPSTONE](#capstone) | Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases | Lee et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.10.31.24316513) |
-| [AGING](#aging) | A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan | Yang et al | TBD | TBD |
+| [AGING](#aging) | A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan | Yang et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.06.24316592) |
 | [DISEASE1](#disease1) | Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases | Porras et al | TBD | TBD |
 | [DISEASE2](#disease2) | Decoding Pathogenic and Protective Gene Regulatory Interactions in Alzheimer's Disease | TBD | TBD | TBD |
 | [DISEASE3](#disease3) | Phenotype Scoring of Population Scale Single-Cell Data Dissects Alzheimer's Disease Complexity | He et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.01.24316586) |
 | [DISEASE4](#disease4) | Personalized Single-cell Transcriptomics Reveals Molecular Diversity in Alzheimer's Disease | Chandrashekar et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.01.24316589) |
-| [GV1](#gv1) | Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain | Zeng et al | TBD | TBD |
-| [GV2](#gv2) | Single-nucleus transcriptome-wide association study of human brain disorders | Venkatesh et al | TBD | TBD |
+| [GV1](#gv1) | Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain | Zeng et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.02.24316590) |
+| [GV2](#gv2) | Single-nucleus transcriptome-wide association study of human brain disorders | Venkatesh et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.04.24316495) |
 | [METHOD1](#method1) | Fast, flexible analysis of compositional data with crumblr | Hoffman et al | TBD | TBD |
 | [METHOD2](#method2) | Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy | Ramaswamy et al | TBD | TBD |
 | [METHOD3](#method3) | Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet | Hoffman et al | Nat. Comm. | [![bioRxiv](/assets/images/bioRxiv.jpg){: width="50" }](https://doi.org/10.1101/2023.03.17.533005) |
