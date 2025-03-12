@@ -16,7 +16,7 @@ title: "Research"
 | [DISEASE4](#disease4) | Personalized Single-cell Transcriptomics Reveals Molecular Diversity in Alzheimer's Disease | Chandrashekar et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.01.24316589) |
 | [GV1](#gv1) | Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain | Zeng et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.02.24316590) |
 | [GV2](#gv2) | Single-nucleus transcriptome-wide association study of human brain disorders | Venkatesh et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.04.24316495) |
-| [METHOD1](#method1) | Fast, flexible analysis of compositional data with crumblr | Hoffman et al | TBD | TBD |
+| [METHOD1](#method1) | Fast, flexible analysis of compositional data with crumblr | Hoffman et al | TBD | [![bioRxiv](/assets/images/bioRxiv.jpg){: width="50" }](https://doi.org/10.1101/2025.01.29.635498) |
 | [METHOD2](#method2) | Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy | Ramaswamy et al | TBD | [![bioRxiv](/assets/images/bioRxiv.jpg){: width="50" }](https://doi.org/10.1101/2023.05.19.541376) |
 | [METHOD3](#method3) | Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet | Hoffman et al | Nat. Comm. | [![bioRxiv](/assets/images/bioRxiv.jpg){: width="50" }](https://doi.org/10.1101/2023.03.17.533005) |
 | [RESOURCE](#resource) | Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution | Fullard et al | Scientific Data | TBD |
@@ -117,7 +117,9 @@ Neuropsychiatric and neurodegenerative disorders exhibit cell-type-specific char
 
 ### Fast, flexible analysis of compositional data with crumblr
 
-*Gabriel E. Hoffman, Donghoon Lee, Panos Roussos*
+*Gabriel E. Hoffman, Panos Roussos*
+
+doi: [https://doi.org/10.1101/2025.01.29.635498](https://doi.org/10.1101/2025.01.29.635498)
 
 ![METHOD1](/assets/images/PsychAD_Method1.png)
 
