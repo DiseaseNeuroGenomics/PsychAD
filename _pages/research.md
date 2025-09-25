@@ -9,7 +9,7 @@ title: "Research"
 | Key | Title | Authors | Journal | Preprint |
 | --- | --- | --- | --- | --- |
 | [CAPSTONE](#capstone) | Single-cell atlas of transcriptomic vulnerability across brain disorders | Lee et al | [![nature](/assets/images/nature.jpg){: width="50" }](https://www.nature.com/) | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.10.31.24316513) |
-| [AGING](#aging) | A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan | Yang et al | TBD | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.06.24316592) |
+| [AGING](#aging) | A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan | Yang et al | [![nature](/assets/images/nature.jpg){: width="50" }](https://www.nature.com/) | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.06.24316592) |
 | [DISEASE1](#disease1) | Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases | Porras et al | TBD | TBD |
 | [DISEASE2](#disease2) | Decoding Pathogenic and Protective Gene Regulatory Interactions in Alzheimer's Disease | TBD | TBD | TBD |
 | [DISEASE3](#disease3) | Phenotype Scoring of Population Scale Single-Cell Data Dissects Alzheimer's Disease Complexity | He et al | [![nature_medicine](/assets/images/nature_medicine.jpg){: width="50" }](https://www.nature.com/nm/) | [![medRxiv](/assets/images/medRxiv.jpg){: width="50" }](https://doi.org/10.1101/2024.11.01.24316586) |
