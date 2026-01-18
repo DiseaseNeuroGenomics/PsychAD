@@ -23,7 +23,7 @@ title: "Research"
 
 ## CAPSTONE
 
-### Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases
+### Single-cell atlas of transcriptomic vulnerability across brain disorders
 
 *Donghoon Lee, Mikaela Koutrouli, Nicolas Y. Masse, Gabriel E. Hoffman, Seon Kinrot, Xinyi Wang, Prashant N.M., Milos Pjanic, Tereza Clarence, Fotios Tsetsos, Deepika Mathur, David Burstein, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Jennifer Monteiro Fortes, Pavel Katsel, Pavan K. Auluck, Lisa L. Barnes, Stefano Marenco, David A. Bennett, PsychAD Consortium, Lars Juhl Jensen, Kiran Girdhar, Georgios Voloudakis, Vahram Haroutunian, Jaroslav Bendl, John F. Fullard, Panos Roussos*
 
@@ -35,7 +35,7 @@ Neurodegenerative and neuropsychiatric diseases impose a significant societal an
 
 ## AGING
 
-### A single-cell transcriptomic atlas of the prefrontal cortex across the human lifespan
+### Lifespan single-cell transcriptomic atlas of the human prefrontal cortex
 
 *Hui Yang, Tereza Clarence, Madeline R. Scott, Prashant N.M., Xinyi Wang, Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, PsychAD Consortium, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos*
 
@@ -67,7 +67,7 @@ Alzheimer’s Disease (AD) pathogenesis, marked by misfolded protein accumulatio
 
 ## DISEASE3
 
-### Phenotype Scoring of Population Scale Single-Cell Data Dissects Alzheimer's Disease Complexity
+### AI-based Characterization of Alzheimer’s Disease Phenotypes from Population Scale Single Cell Data
 
 *Chenfeng He, Athan Z. Li, Kalpana Hanthanan Arachchilage, Chirag Gupta, Xiang Huang, Xinyu Zhao, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang*
 
