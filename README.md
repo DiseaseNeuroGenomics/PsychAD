@@ -1,27 +1,19 @@
-# Minimal Mistakes remote theme starter
+# PsychAD website hosted on https://psych-ad.org/
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Maintained by Donghoon Lee (@hoondy)
 
-Contains basic configuration to get you a site with:
+## Goal of the Project
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+The PsychAD Consortium seeks to deepen our understanding of neuropsychiatric symptoms (NPS) in Alzheimer’s disease (AD), related dementias (ADRD), and serious mental illnesses (SMIs) by exploring shared and distinct biological pathways underlying these disorders. By combining epidemiological data with advanced multi-omic and systems biology approaches, PsychAD aims to uncover biomarkers and therapeutic targets that can improve diagnosis, prognosis, and treatment of NPS. Using a large autopsy dataset, the consortium builds high-resolution, single-cell models to examine gene expression across genetic, developmental, and disease-related dimensions. These models reveal cell-specific pathways that influence NPS and disease progression, offering valuable insights for precision medicine. Ultimately, PsychAD strives to create a foundational framework for targeted, cross-disorder treatments that address the molecular complexity of AD, ADRD, and SMIs.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## About NIA’s Psych-AD program
 
----
+The Psych-AD program brings together projects focused on uncovering the molecular mechanisms behind neuropsychiatric symptoms (NPS) in Alzheimer’s disease (AD) and related dementias (ADRD). By combining epidemiologic, multi-omic, and mechanistic research through systems biology, Psych-AD aims to identify new therapeutic targets and biomarkers for NPS in AD/ADRD. The program is supported by the National Institute on Aging via funding from PAR-23-207 and RFA-MH-19-510.
 
-## Troubleshooting
+## Resources
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- Made with [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)
+- Discussions on using Jekyll: [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll)
+- Ruby basics: [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
 - [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration)
