@@ -1,0 +1,800 @@
+---
+# Custom main stylesheet for the PsychAD Consortium site.
+# Overrides the Minimal Mistakes remote theme with a brand-matched,
+# more immersive and professional design.
+search: false
+---
+
+@charset "utf-8";
+
+/* ==========================================================================
+   Brand variable overrides (must precede the theme import)
+   Palette derived from the PsychAD network-brain logo:
+   magenta #e6007e  →  cyan #00aeef  →  indigo #2e3192
+   ========================================================================== */
+
+$sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$header-font-family: "Space Grotesk", $sans-serif !default;
+$global-font-family: $sans-serif;
+
+$primary-color: #2e3192;
+$link-color: #1067b5;
+$link-color-hover: #e6007e;
+$link-color-visited: #5b3fa6;
+$masthead-link-color: #21243d;
+$masthead-link-color-hover: #e6007e;
+$footer-background-color: #11132b;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ==========================================================================
+   Design tokens
+   ========================================================================== */
+
+:root {
+  --psy-magenta: #e6007e;
+  --psy-pink: #d6249f;
+  --psy-violet: #6a3fb5;
+  --psy-cyan: #00aeef;
+  --psy-blue: #1067b5;
+  --psy-indigo: #2e3192;
+  --psy-ink: #1a1c33;
+  --psy-slate: #4a4f6a;
+  --psy-mist: #f5f7fb;
+  --psy-line: #e6e9f2;
+  --psy-gradient: linear-gradient(120deg, #e6007e 0%, #9b29a3 32%, #00aeef 68%, #2e3192 100%);
+  --psy-gradient-soft: linear-gradient(120deg, rgba(230,0,126,.10), rgba(0,174,239,.10) 60%, rgba(46,49,146,.12));
+  --psy-shadow-sm: 0 2px 8px rgba(26, 28, 51, .06);
+  --psy-shadow: 0 10px 30px rgba(26, 28, 51, .10);
+  --psy-shadow-lg: 0 24px 60px rgba(26, 28, 51, .16);
+  --psy-radius: 16px;
+}
+
+/* ==========================================================================
+   Base typography
+   ========================================================================== */
+
+body {
+  color: var(--psy-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  letter-spacing: -0.015em;
+  color: var(--psy-ink);
+}
+
+.page__content {
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
+a {
+  transition: color .18s ease, opacity .18s ease;
+}
+
+/* Full-bleed helper: breaks an element out of the centered content column */
+.psy-bleed {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* ==========================================================================
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 1px solid var(--psy-line);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(10px);
+  background-color: rgba(255, 255, 255, .9);
+  box-shadow: var(--psy-shadow-sm);
+}
+
+.masthead__inner-wrap {
+  padding-top: .9em;
+  padding-bottom: .9em;
+}
+
+.site-title {
+  font-family: $header-font-family;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: var(--psy-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  font-family: $header-font-family;
+  font-weight: 500;
+  font-size: .92em;
+}
+
+.greedy-nav .visible-links a:before {
+  height: 3px;
+  background: var(--psy-gradient);
+  border-radius: 3px;
+}
+
+.masthead__menu-item--lg {
+  /* nothing */
+}
+
+/* ==========================================================================
+   Hero (homepage)
+   ========================================================================== */
+
+.psy-hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--psy-gradient);
+  color: #fff;
+  padding: clamp(4rem, 10vw, 8rem) 1.5rem clamp(3.5rem, 8vw, 6.5rem);
+  text-align: center;
+}
+
+.psy-hero::before {
+  /* network dot texture */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, .22) 1.4px, transparent 1.5px);
+  background-size: 26px 26px;
+  opacity: .5;
+  mask-image: radial-gradient(120% 90% at 50% 40%, #000 35%, transparent 78%);
+  -webkit-mask-image: radial-gradient(120% 90% at 50% 40%, #000 35%, transparent 78%);
+}
+
+.psy-hero::after {
+  /* soft glow */
+  content: "";
+  position: absolute;
+  width: 60vw;
+  height: 60vw;
+  top: -25vw;
+  right: -15vw;
+  background: radial-gradient(circle, rgba(255, 255, 255, .25), transparent 60%);
+  pointer-events: none;
+}
+
+.psy-hero__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.psy-hero__logo {
+  display: block;
+  width: clamp(96px, 14vw, 140px);
+  height: auto;
+  margin: 0 auto 1.4rem;
+  filter: drop-shadow(0 12px 30px rgba(0, 0, 0, .35));
+  animation: psy-float 6s ease-in-out infinite;
+}
+
+@keyframes psy-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.psy-hero__eyebrow {
+  display: inline-block;
+  font-family: $header-font-family;
+  font-weight: 600;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  font-size: .72rem;
+  padding: .45em 1.1em;
+  border: 1px solid rgba(255, 255, 255, .45);
+  border-radius: 100px;
+  margin-bottom: 1.3rem;
+  background: rgba(255, 255, 255, .08);
+}
+
+.psy-hero__title {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  line-height: 1.04;
+  margin: 0 0 1rem;
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .25);
+}
+
+.psy-hero__lead {
+  font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+  line-height: 1.55;
+  max-width: 44ch;
+  margin: 0 auto 2rem;
+  color: rgba(255, 255, 255, .94);
+  font-weight: 400;
+}
+
+/* Theme's `.page__content p` (0,1,1) outranks `.psy-hero__lead` (0,1,0)
+   and resets the auto margins, so re-assert centering at equal specificity. */
+.psy-hero p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.psy-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .85rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.psy-hero__grant {
+  font-size: .9rem;
+  color: rgba(255, 255, 255, .8);
+}
+
+.psy-hero__grant a {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.psy-hero__grant a:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* Buttons */
+.psy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5em;
+  font-family: $header-font-family;
+  font-weight: 600;
+  font-size: .98rem;
+  padding: .8em 1.6em;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease;
+  border: 1px solid transparent;
+}
+
+.psy-btn:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.psy-btn--solid {
+  background: #fff;
+  color: var(--psy-indigo);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .22);
+}
+
+.psy-btn--solid:hover {
+  color: var(--psy-magenta);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, .28);
+}
+
+.psy-btn--ghost {
+  background: rgba(255, 255, 255, .1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, .55);
+}
+
+.psy-btn--ghost:hover {
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+}
+
+/* Solid accent button for use on light sections */
+.psy-btn--accent {
+  background: var(--psy-indigo);
+  color: #fff;
+  box-shadow: var(--psy-shadow-sm);
+}
+
+.psy-btn--accent:hover {
+  background: var(--psy-magenta);
+  color: #fff;
+}
+
+/* ==========================================================================
+   Stats band
+   ========================================================================== */
+
+.psy-stats {
+  background: var(--psy-ink);
+  color: #fff;
+  padding: clamp(2.2rem, 5vw, 3.2rem) 1.5rem;
+}
+
+.psy-stats__grid {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.psy-stat__num {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1;
+  background: linear-gradient(120deg, #ff5fb0, #46c8ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.psy-stat__label {
+  margin-top: .5rem;
+  font-size: .82rem;
+  letter-spacing: .04em;
+  color: rgba(255, 255, 255, .7);
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .psy-stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem 1rem;
+  }
+  .psy-stats__grid > :last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ==========================================================================
+   Generic content sections used on home / data pages
+   ========================================================================== */
+
+.psy-section {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: clamp(2.8rem, 6vw, 4.5rem) 1.5rem;
+}
+
+.psy-section--mist {
+  background: var(--psy-mist);
+  max-width: none;
+}
+
+.psy-section--mist > * {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.psy-kicker {
+  font-family: $header-font-family;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-size: .76rem;
+  color: var(--psy-magenta);
+  margin-bottom: .6rem;
+}
+
+.psy-h2 {
+  font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+  line-height: 1.12;
+  margin: 0 0 1rem;
+}
+
+.psy-h2--center,
+.psy-kicker--center {
+  text-align: center;
+}
+
+.psy-lead {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: var(--psy-slate);
+}
+
+.psy-prose {
+  max-width: 760px;
+}
+
+.psy-prose p {
+  line-height: 1.78;
+  color: var(--psy-slate);
+}
+
+/* Two-column intro */
+.psy-split {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .psy-split { grid-template-columns: 1fr; }
+}
+
+.psy-aside {
+  background: #fff;
+  border: 1px solid var(--psy-line);
+  border-radius: var(--psy-radius);
+  padding: 1.8rem;
+  box-shadow: var(--psy-shadow-sm);
+  position: relative;
+}
+
+.psy-aside::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  border-radius: var(--psy-radius) var(--psy-radius) 0 0;
+  background: var(--psy-gradient);
+}
+
+.psy-aside h3 {
+  margin-top: .4rem;
+}
+
+/* ==========================================================================
+   Explore / feature cards
+   ========================================================================== */
+
+.psy-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem;
+}
+
+.psy-card {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--psy-line);
+  border-radius: var(--psy-radius);
+  padding: 1.8rem;
+  text-decoration: none;
+  color: var(--psy-ink);
+  box-shadow: var(--psy-shadow-sm);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.psy-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--psy-shadow);
+  border-color: transparent;
+  text-decoration: none;
+  color: var(--psy-ink);
+}
+
+.psy-card__icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--psy-gradient-soft);
+  color: var(--psy-indigo);
+  font-size: 1.4rem;
+  margin-bottom: 1.1rem;
+}
+
+.psy-card h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.2rem;
+}
+
+.psy-card p {
+  margin: 0;
+  color: var(--psy-slate);
+  font-size: .96rem;
+  line-height: 1.6;
+}
+
+.psy-card__arrow {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  font-family: $header-font-family;
+  color: var(--psy-blue);
+  font-size: .92rem;
+}
+
+.psy-card:hover .psy-card__arrow {
+  color: var(--psy-magenta);
+}
+
+/* ==========================================================================
+   Publications (research page)
+   ========================================================================== */
+
+.psychad-pubs table {
+  border: 1px solid var(--psy-line);
+  border-radius: var(--psy-radius);
+  overflow: hidden;
+  box-shadow: var(--psy-shadow-sm);
+  font-size: .9em;
+}
+
+.psychad-pubs table thead {
+  background: var(--psy-ink);
+  color: #fff;
+}
+
+.psychad-pubs table th {
+  font-family: $header-font-family;
+  border: 0;
+}
+
+.psychad-pubs table td {
+  border-color: var(--psy-line);
+  vertical-align: middle;
+}
+
+.psychad-pubs table tbody tr:hover {
+  background: var(--psy-mist);
+}
+
+.psychad-pubs table img {
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+/* Each publication renders as: h2 (key) > h3 (title) > authors em > doi > img > abstract */
+.psychad-pubs h2 {
+  margin-top: 3.2rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--psy-line);
+  font-size: .8rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--psy-magenta);
+}
+
+.psychad-pubs h3 {
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  line-height: 1.2;
+  margin: .2rem 0 .8rem;
+}
+
+.psychad-pubs h2 + h3 { margin-top: .2rem; }
+
+.psychad-pubs h3 + p em {
+  color: var(--psy-slate);
+  font-size: .95rem;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+.psychad-pubs img {
+  border-radius: var(--psy-radius);
+  box-shadow: var(--psy-shadow);
+  margin: 1.4rem 0;
+}
+
+/* ==========================================================================
+   People page
+   ========================================================================== */
+
+.psychad-people img {
+  border-radius: var(--psy-radius);
+  box-shadow: var(--psy-shadow);
+}
+
+.psychad-people table {
+  font-size: .86em;
+  border: 1px solid var(--psy-line);
+  border-radius: var(--psy-radius);
+  overflow: hidden;
+  box-shadow: var(--psy-shadow-sm);
+}
+
+.psychad-people table thead {
+  background: var(--psy-ink);
+  color: #fff;
+}
+
+.psychad-people table th {
+  font-family: $header-font-family;
+  border: 0;
+}
+
+.psychad-people table td {
+  border-color: var(--psy-line);
+}
+
+.psychad-people table td:first-child {
+  font-weight: 600;
+  font-family: $header-font-family;
+  white-space: nowrap;
+  color: var(--psy-ink);
+}
+
+.psychad-people table td:last-child {
+  color: var(--psy-slate);
+  font-size: .92em;
+}
+
+.psychad-people table tbody tr:hover {
+  background: var(--psy-mist);
+}
+
+/* ==========================================================================
+   Data page resource cards
+   ========================================================================== */
+
+.psy-resources {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.6rem;
+  margin-top: 2rem;
+}
+
+.psy-resource {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--psy-line);
+  border-radius: var(--psy-radius);
+  padding: 1.9rem;
+  box-shadow: var(--psy-shadow-sm);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.psy-resource:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--psy-shadow);
+}
+
+.psy-resource__icon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  font-size: 1.5rem;
+  color: #fff;
+  background: var(--psy-gradient);
+  margin-bottom: 1.2rem;
+}
+
+.psy-resource h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.22rem;
+}
+
+.psy-resource p {
+  color: var(--psy-slate);
+  font-size: .96rem;
+  line-height: 1.6;
+  margin: 0 0 1.3rem;
+}
+
+.psy-resource .psy-btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.psy-callout {
+  background: var(--psy-gradient-soft);
+  border: 1px solid var(--psy-line);
+  border-left: 5px solid var(--psy-magenta);
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+  margin: 2rem 0;
+  color: var(--psy-slate);
+  line-height: 1.7;
+  font-size: .98rem;
+}
+
+.psy-callout strong { color: var(--psy-ink); }
+
+.psy-cite {
+  background: var(--psy-ink);
+  color: #fff;
+  border-radius: var(--psy-radius);
+  padding: 1.6rem 1.8rem;
+  margin-top: 1.5rem;
+  font-size: .98rem;
+  line-height: 1.6;
+}
+
+.psy-cite a { color: #7fd1ff; }
+.psy-cite a:hover { color: #fff; }
+
+/* ==========================================================================
+   Footer + social
+   ========================================================================== */
+
+.page__footer {
+  margin-top: 0;
+  background: var(--psy-ink);
+  color: rgba(255, 255, 255, .75);
+}
+
+.page__footer footer {
+  margin-top: 0;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.page__footer-follow {
+  margin: 0;
+}
+
+.page__footer-follow .social-icons {
+  margin-bottom: .4rem;
+}
+
+.page__footer a {
+  color: rgba(255, 255, 255, .8);
+}
+
+.page__footer a:hover {
+  color: #fff;
+}
+
+.page__footer-follow .social-icons {
+  margin-bottom: .6rem;
+}
+
+.page__footer-follow .social-icons a {
+  font-weight: 500;
+}
+
+/* The theme assigns brand colors (LinkedIn blue, X/GitHub near-black) to social
+   icons, which disappear on the dark footer. Make icons inherit the light link
+   color instead, and brighten the whole link (icon + label) on hover. */
+.page__footer .social-icons a,
+.page__footer .social-icons i {
+  color: rgba(255, 255, 255, .85);
+}
+
+.page__footer .social-icons a:hover,
+.page__footer .social-icons a:hover i {
+  color: var(--psy-cyan);
+}
+
+.page__footer-follow li + li::before {
+  color: rgba(255, 255, 255, .25);
+}
+
+.page__footer-copyright {
+  color: rgba(255, 255, 255, .55);
+  font-size: .78em;
+}
+
+/* ==========================================================================
+   Scroll reveal
+   ========================================================================== */
+
+.psy-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .7s ease, transform .7s ease;
+  will-change: opacity, transform;
+}
+
+.psy-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .psy-reveal { opacity: 1; transform: none; transition: none; }
+  .psy-hero__logo { animation: none; }
+}

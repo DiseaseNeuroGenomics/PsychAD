@@ -4,10 +4,17 @@ permalink: /people/
 title: "People"
 ---
 
-**PsychAD Network**
+<section class="psy-section psychad-people" markdown="1">
+
+<p class="psy-kicker">Collaborative Network</p>
+# PsychAD Network
+{: .psy-h2}
+
+<p class="psy-lead">A multi-institutional network of investigators advancing the molecular understanding of brain disease.</p>
+
 ![Network](/assets/images/PsychAD_Network.png)
 
-**PsychAD Consortium Authors**
+## PsychAD Consortium Authors
 
 | **Name** | **Affiliations** |
 | - | - |
@@ -75,3 +82,5 @@ title: "People"
 | Logan C. Dumitrescu | Vanderbilt Memory & Alzheimer's Center, Vanderbilt University Medical Center, Nashville, TN, USA, Vanderbilt Genetics Institute, Vanderbilt University Medical Center, Nashville, TN, USA |
 | Colleen A. McClung | Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA |
 | Madeline R. Scott | Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA |
+
+</section>

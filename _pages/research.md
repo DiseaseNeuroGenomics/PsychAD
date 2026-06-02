@@ -4,7 +4,13 @@ permalink: /research/
 title: "Research"
 ---
 
-**PsychAD Package of Publications**
+<section class="psy-section psychad-pubs" markdown="1">
+
+<p class="psy-kicker">Publications</p>
+# PsychAD Package of Publications
+{: .psy-h2}
+
+<p class="psy-lead">A coordinated package of studies built on the population-scale PsychAD single-cell atlas of the human prefrontal cortex &mdash; spanning aging, brain disorders, genetic regulation, and computational methods.</p>
 
 | Key | Title | Authors | Journal | Preprint |
 | --- | --- | --- | --- | --- |
@@ -157,7 +163,11 @@ Advances in single-cell and -nucleus transcriptomics have enabled generation of 
 
 *John F. Fullard, Prashant N.M., Donghoon Lee, Deepika Mathur, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Tereza Clarence, David Burstein, Sanan Venkatesh, Pavan K. Auluck, Lisa L. Barnes, David A. Bennett, Stefano Marenco, PsychAD Consortium, Kiran Girdhar, Vahram Haroutunian, Gabriel E. Hoffman, Georgios Voloudakis, Jaroslav Bendl, Panos Roussos*
 
+doi: [https://doi.org/10.1038/s41597-025-04687-5](https://doi.org/10.1038/s41597-025-04687-5)
+
 ![RESOURCE](/assets/images/PsychAD_Resource.png)
 
 Neurodegenerative diseases and serious mental illnesses often exhibit overlapping characteristics, highlighting the potential for shared underlying mechanisms. To facilitate a deeper understanding of these diseases and pave the way for more effective treatments, we have generated a population-scale multi-omics dataset consisting of genotype and single-nucleus transcriptome data from the prefrontal cortex of frozen human brain specimens. Encompassing over 6.3 million nuclei from 1,494 donors, our dataset represents a diverse range of neurodegenerative and serious mental illnesses, including Alzheimer's and Parkinson’s diseases, schizophrenia, bipolar disorder and diffuse Lewy body dementia, as well as neurotypical controls. Notably, 48% of all donors displayed neuropsychiatric symptoms, while over 21% received multiple diagnoses. The dataset presents an unprecedented opportunity to investigate both common and distinct molecular pathways spanning a range of brain-related disorders. We have performed stringent preprocessing and quality controls, ensuring the reliability and usability of the data. As a commitment to fostering collaborative research, we provide this valuable resource as an online repository, enabling widespread analyses across the scientific community.
+
+</section>
 
