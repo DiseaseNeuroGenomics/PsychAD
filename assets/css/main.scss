@@ -765,9 +765,9 @@ a.psy-pub__logo:hover .psy-pub__logo-img { box-shadow: var(--psy-shadow); }
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 12px;
-  border: 1px solid var(--psy-line);
-  box-shadow: var(--psy-shadow-sm);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
   margin: 0;
 }
 
