@@ -749,13 +749,14 @@ a.psy-pub__logo:hover .psy-pub__logo-img { box-shadow: var(--psy-shadow); }
   font-size: .9rem;
   line-height: 1.65;
   color: var(--psy-slate);
-  margin: 0 0 .55rem;
+  margin: 0 0 1.3rem;
 }
 
-/* Contribution / corresponding-author superscript markers */
+/* Contribution / corresponding-author superscript markers
+   (accent color inside a card; magenta fallback in the page-level legend) */
 .psy-author-mark {
   font-weight: 700;
-  color: var(--pub-color);
+  color: var(--pub-color, var(--psy-magenta));
 }
 
 sup.psy-author-mark {
@@ -763,11 +764,13 @@ sup.psy-author-mark {
   margin-left: 1px;
 }
 
-.psy-pub__authnote {
-  font-size: .8rem;
-  line-height: 1.5;
+/* Single universal legend at the bottom of the research page */
+.psy-pub__legend {
+  margin: 2.4rem 0 0;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--psy-line);
+  font-size: .84rem;
   color: var(--psy-slate);
-  margin: 0 0 1.3rem;
 }
 
 .psy-pub__fig {
@@ -1036,6 +1039,15 @@ sup.psy-author-mark {
   text-decoration: none;
   box-shadow: var(--psy-shadow-sm);
   transition: transform .14s ease, box-shadow .14s ease;
+}
+
+/* Keep the label white regardless of link state — the theme's a:visited
+   rule would otherwise turn clicked icons' text purple and illegible. */
+.pubdot:link,
+.pubdot:visited,
+.pubdot:hover,
+.pubdot:active {
+  color: #fff;
 }
 
 .pubdot:hover {
