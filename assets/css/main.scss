@@ -56,6 +56,13 @@ $footer-background-color: #11132b;
    Base typography
    ========================================================================== */
 
+/* The theme scales the root font up on wide screens (16 -> 18 -> 20 -> 22px),
+   which makes the layout feel magnified. Shift the ramp down one step so text
+   is a notch smaller and more content fits comfortably. */
+@media (min-width: 48em) { html { font-size: 16px; } }
+@media (min-width: 64em) { html { font-size: 18px; } }
+@media (min-width: 80em) { html { font-size: 20px; } }
+
 body {
   color: var(--psy-ink);
   -webkit-font-smoothing: antialiased;

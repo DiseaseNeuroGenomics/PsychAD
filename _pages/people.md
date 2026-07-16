@@ -171,7 +171,7 @@ title: "People"
       <tr>
         <td><span class="person-name">Pavel Katsel</span></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a></span></td>
-        <td>Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, NY, USA</td>
+        <td><ul class="aff-list"><li>Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, NY, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Pengfei Dong</span> <a class="orcid-link" href="https://orcid.org/0000-0003-3735-5158" target="_blank" rel="noopener" title="ORCID 0000-0003-3735-5158" aria-label="ORCID profile for Pengfei Dong"><i class="fab fa-orcid"></i></a></td>
@@ -286,7 +286,7 @@ title: "People"
       <tr>
         <td><span class="person-name">Xiang Huang</span> <a class="orcid-link" href="https://orcid.org/0000-0003-4606-5793" target="_blank" rel="noopener" title="ORCID 0000-0003-4606-5793" aria-label="ORCID profile for Xiang Huang"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--dis" href="/research/#disease3" title="DISEASE 3: AI phenotype characterization">D3</a><a class="pubdot pubdot--dis" href="/research/#disease4" title="DISEASE 4: personalized transcriptomics">D4</a></span></td>
-        <td>Waisman Center, University of Wisconsin-Madison, Madison, WI, USA</td>
+        <td><ul class="aff-list"><li>Waisman Center, University of Wisconsin-Madison, Madison, WI, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Steven Finkbeiner</span> <a class="orcid-link" href="https://orcid.org/0000-0002-3480-394X" target="_blank" rel="noopener" title="ORCID 0000-0002-3480-394X" aria-label="ORCID profile for Steven Finkbeiner"><i class="fab fa-orcid"></i></a></td>
@@ -311,32 +311,32 @@ title: "People"
       <tr>
         <td><span class="person-name">David A. Bennett</span> <a class="orcid-link" href="https://orcid.org/0000-0003-3689-554X" target="_blank" rel="noopener" title="ORCID 0000-0003-3689-554X" aria-label="ORCID profile for David A. Bennett"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a><a class="pubdot pubdot--dis" href="/research/#disease1" title="DISEASE 1: cell–cell interactome">D1</a><a class="pubdot pubdot--gv" href="/research/#gv1" title="GV1: genetic-regulation atlas">GV1</a><a class="pubdot pubdot--gv" href="/research/#gv2" title="GV2: single-nucleus TWAS">GV2</a><a class="pubdot pubdot--res" href="/research/#resource" title="RESOURCE: cross-disorder data resource">RES</a></span></td>
-        <td>Rush Alzheimer&#x27;s Disease Center and Department of Neurological Sciences, Rush University Medical Center, Chicago, IL, USA</td>
+        <td><ul class="aff-list"><li>Rush Alzheimer&#x27;s Disease Center and Department of Neurological Sciences, Rush University Medical Center, Chicago, IL, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Lisa L. Barnes</span> <a class="orcid-link" href="https://orcid.org/0000-0002-0072-9817" target="_blank" rel="noopener" title="ORCID 0000-0002-0072-9817" aria-label="ORCID profile for Lisa L. Barnes"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a><a class="pubdot pubdot--res" href="/research/#resource" title="RESOURCE: cross-disorder data resource">RES</a></span></td>
-        <td>Rush Alzheimer&#x27;s Disease Center and Department of Neurological Sciences, Rush University Medical Center, Chicago, IL, USA</td>
+        <td><ul class="aff-list"><li>Rush Alzheimer&#x27;s Disease Center and Department of Neurological Sciences, Rush University Medical Center, Chicago, IL, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Stefano Marenco</span> <a class="orcid-link" href="https://orcid.org/0000-0002-2488-2365" target="_blank" rel="noopener" title="ORCID 0000-0002-2488-2365" aria-label="ORCID profile for Stefano Marenco"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a><a class="pubdot pubdot--age" href="/research/#aging" title="AGING: lifespan atlas">AGE</a><a class="pubdot pubdot--gv" href="/research/#gv1" title="GV1: genetic-regulation atlas">GV1</a><a class="pubdot pubdot--gv" href="/research/#gv2" title="GV2: single-nucleus TWAS">GV2</a><a class="pubdot pubdot--res" href="/research/#resource" title="RESOURCE: cross-disorder data resource">RES</a></span></td>
-        <td>Human Brain Collection Core, National Institute of Mental Health-Intramural Research Program, Bethesda, MD, USA</td>
+        <td><ul class="aff-list"><li>Human Brain Collection Core, National Institute of Mental Health-Intramural Research Program, Bethesda, MD, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Pavan K. Auluck</span> <a class="orcid-link" href="https://orcid.org/0000-0003-4799-7904" target="_blank" rel="noopener" title="ORCID 0000-0003-4799-7904" aria-label="ORCID profile for Pavan K. Auluck"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a><a class="pubdot pubdot--age" href="/research/#aging" title="AGING: lifespan atlas">AGE</a><a class="pubdot pubdot--gv" href="/research/#gv1" title="GV1: genetic-regulation atlas">GV1</a><a class="pubdot pubdot--gv" href="/research/#gv2" title="GV2: single-nucleus TWAS">GV2</a><a class="pubdot pubdot--res" href="/research/#resource" title="RESOURCE: cross-disorder data resource">RES</a></span></td>
-        <td>Human Brain Collection Core, National Institute of Mental Health-Intramural Research Program, Bethesda, MD, USA</td>
+        <td><ul class="aff-list"><li>Human Brain Collection Core, National Institute of Mental Health-Intramural Research Program, Bethesda, MD, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Lars J. Jensen</span> <a class="orcid-link" href="https://orcid.org/0000-0001-7885-715X" target="_blank" rel="noopener" title="ORCID 0000-0001-7885-715X" aria-label="ORCID profile for Lars J. Jensen"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a></span></td>
-        <td>Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark</td>
+        <td><ul class="aff-list"><li>Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Mikaela Koutrouli</span> <a class="orcid-link" href="https://orcid.org/0000-0002-8953-3561" target="_blank" rel="noopener" title="ORCID 0000-0002-8953-3561" aria-label="ORCID profile for Mikaela Koutrouli"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--cap" href="/research/#capstone" title="CAPSTONE: flagship disease atlas">CAP</a></span></td>
-        <td>Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark</td>
+        <td><ul class="aff-list"><li>Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Timothy J. Hohman</span> <a class="orcid-link" href="https://orcid.org/0000-0002-3377-7014" target="_blank" rel="noopener" title="ORCID 0000-0002-3377-7014" aria-label="ORCID profile for Timothy J. Hohman"><i class="fab fa-orcid"></i></a></td>
@@ -351,12 +351,12 @@ title: "People"
       <tr>
         <td><span class="person-name">Colleen A. McClung</span> <a class="orcid-link" href="https://orcid.org/0000-0003-4719-6197" target="_blank" rel="noopener" title="ORCID 0000-0003-4719-6197" aria-label="ORCID profile for Colleen A. McClung"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--age" href="/research/#aging" title="AGING: lifespan atlas">AGE</a></span></td>
-        <td>Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA</td>
+        <td><ul class="aff-list"><li>Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA</li></ul></td>
       </tr>
       <tr>
         <td><span class="person-name">Madeline R. Scott</span> <a class="orcid-link" href="https://orcid.org/0000-0002-2059-2256" target="_blank" rel="noopener" title="ORCID 0000-0002-2059-2256" aria-label="ORCID profile for Madeline R. Scott"><i class="fab fa-orcid"></i></a></td>
         <td><span class="pub-icons"><a class="pubdot pubdot--age" href="/research/#aging" title="AGING: lifespan atlas">AGE</a></span></td>
-        <td>Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA</td>
+        <td><ul class="aff-list"><li>Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA</li></ul></td>
       </tr>
     </tbody>
   </table>
