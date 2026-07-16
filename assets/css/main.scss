@@ -749,12 +749,25 @@ a.psy-pub__logo:hover .psy-pub__logo-img { box-shadow: var(--psy-shadow); }
   font-size: .9rem;
   line-height: 1.65;
   color: var(--psy-slate);
-  margin: 0 0 1.3rem;
+  margin: 0 0 .55rem;
 }
 
-.psy-pub__authors .psy-consortium {
-  font-weight: 600;
+/* Contribution / corresponding-author superscript markers */
+.psy-author-mark {
+  font-weight: 700;
   color: var(--pub-color);
+}
+
+sup.psy-author-mark {
+  font-size: .68em;
+  margin-left: 1px;
+}
+
+.psy-pub__authnote {
+  font-size: .8rem;
+  line-height: 1.5;
+  color: var(--psy-slate);
+  margin: 0 0 1.3rem;
 }
 
 .psy-pub__fig {

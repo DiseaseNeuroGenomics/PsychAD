@@ -117,7 +117,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Single-cell atlas of transcriptomic vulnerability across brain disorders</h3>
-  <p class="psy-pub__authors">Donghoon Lee, Mikaela Koutrouli, Nicolas Y. Masse, Gabriel E. Hoffman, Seon Kinrot, Xinyi Wang, Prashant N.M., Milos Pjanic, Tereza Clarence, Fotios Tsetsos, Deepika Mathur, David Burstein, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Jennifer Monteiro Fortes, Sarah R. Murphy, Pavel Katsel, Pavan K. Auluck, Lisa L. Barnes, Stefano Marenco, David A. Bennett, <span class="psy-consortium">PsychAD Consortium</span>, Lars Juhl Jensen, Kiran Girdhar, Georgios Voloudakis, Vahram Haroutunian, Jaroslav Bendl, John F. Fullard, Panos Roussos</p>
+  <p class="psy-pub__authors">Donghoon Lee<sup class="psy-author-mark">*#</sup>, Mikaela Koutrouli<sup class="psy-author-mark">*</sup>, Nicolas Y. Masse<sup class="psy-author-mark">*</sup>, Gabriel E. Hoffman<sup class="psy-author-mark">*</sup>, Seon Kinrot, Xinyi Wang, Prashant N.M., Milos Pjanic, Tereza Clarence, Fotios Tsetsos, Deepika Mathur, David Burstein, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Jennifer Monteiro Fortes, Sarah R. Murphy, Pavel Katsel, Pavan K. Auluck, Lisa L. Barnes, Stefano Marenco, David A. Bennett, PsychAD Consortium, Lars Juhl Jensen, Kiran Girdhar, Georgios Voloudakis, Vahram Haroutunian, Jaroslav Bendl, John F. Fullard<sup class="psy-author-mark">*</sup>, Panos Roussos<sup class="psy-author-mark">*#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">*</span> Equal contribution &nbsp;&middot;&nbsp; <span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_capstone.png" alt="CAPSTONE graphical abstract" loading="lazy" />
   </figure>
@@ -172,7 +173,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Lifespan single-cell transcriptomic atlas of the human prefrontal cortex</h3>
-  <p class="psy-pub__authors">Hui Yang, Tereza Clarence, Madeline R. Scott, Xinyi Wang, Prashant N.M., Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Sarah R. Murphy, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Alexander Kawah Yu, <span class="psy-consortium">PsychAD Consortium</span>, Nadejda M. Tsankova, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar, Panos Roussos</p>
+  <p class="psy-pub__authors">Hui Yang<sup class="psy-author-mark">*</sup>, Tereza Clarence<sup class="psy-author-mark">*</sup>, Madeline R. Scott<sup class="psy-author-mark">*</sup>, Xinyi Wang, Prashant N.M., Milos Pjanic, Sanan Venkatesh, Aram Hong, Clara Casey, Sarah R. Murphy, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Alexander Kawah Yu, PsychAD Consortium, Nadejda M. Tsankova, Pavan K. Auluck, Stefano Marenco, Vahram Haroutunian, Georgios Voloudakis, Jaroslav Bendl, Colleen A. McClung, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Kiran Girdhar<sup class="psy-author-mark">#</sup>, Panos Roussos<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">*</span> Equal contribution &nbsp;&middot;&nbsp; <span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_aging.png" alt="AGING graphical abstract" loading="lazy" />
   </figure>
@@ -245,7 +247,7 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Gene regulatory programs of cognitive resilience and pathogenesis in Alzheimer’s disease</h3>
-  <p class="psy-pub__authors">Collin Spencer, Prashant N.M., <span class="psy-consortium">PsychAD Consortium</span>, Jaroslav Bendl, Gabriel E. Hoffman, John F. Fullard, Donghoon Lee, Panos Roussos</p>
+  <p class="psy-pub__authors">Collin Spencer, Prashant N.M., PsychAD Consortium, Jaroslav Bendl, Gabriel E. Hoffman, John F. Fullard, Donghoon Lee, Panos Roussos</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/PsychAD_Disease2.png" alt="DISEASE 2 graphical abstract" loading="lazy" />
   </figure>
@@ -267,7 +269,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">AI-based Characterization of Alzheimer’s Disease Phenotypes from Population Scale Single Cell Data</h3>
-  <p class="psy-pub__authors">Chenfeng He, Athan Z. Li, Kalpana Hanthanan Arachchilage, Chirag Gupta, Xiang Huang, Xinyu Zhao, Carissa L. Sirois, <span class="psy-consortium">PsychAD Consortium</span>, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang</p>
+  <p class="psy-pub__authors">Chenfeng He<sup class="psy-author-mark">*</sup>, Athan Z. Li<sup class="psy-author-mark">*</sup>, Kalpana Hanthanan Arachchilage<sup class="psy-author-mark">*</sup>, Chirag Gupta<sup class="psy-author-mark">*</sup>, Xiang Huang, Xinyu Zhao, Carissa L. Sirois, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos<sup class="psy-author-mark">#</sup>, Daifeng Wang<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">*</span> Equal contribution &nbsp;&middot;&nbsp; <span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_disease3.png" alt="DISEASE 3 graphical abstract" loading="lazy" />
   </figure>
@@ -317,7 +320,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Personalized Single-Cell Transcriptomics Reveals Molecular Diversity in Alzheimer&#x27;s Disease</h3>
-  <p class="psy-pub__authors">Pramod Bharadwaj Chandrashekar, Sayali Anil Alatkar, Noah Cohen Kalafut, Ting Jin, Chirag Gupta, Ryan Conway Burczak, Xiang Huang, Shuang Liu, Athan Z. Li, <span class="psy-consortium">PsychAD Consortium</span>, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos, Daifeng Wang</p>
+  <p class="psy-pub__authors">Pramod Bharadwaj Chandrashekar<sup class="psy-author-mark">*</sup>, Sayali Anil Alatkar<sup class="psy-author-mark">*</sup>, Noah Cohen Kalafut<sup class="psy-author-mark">*</sup>, Ting Jin<sup class="psy-author-mark">*</sup>, Chirag Gupta, Ryan Conway Burczak, Xiang Huang, Shuang Liu, Athan Z. Li, PsychAD Consortium, Kiran Girdhar, Georgios Voloudakis, Gabriel E. Hoffman, Jaroslav Bendl, John F. Fullard, Donghoon Lee, Panos Roussos<sup class="psy-author-mark">#</sup>, Daifeng Wang<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">*</span> Equal contribution &nbsp;&middot;&nbsp; <span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_disease4.png" alt="DISEASE 4 graphical abstract" loading="lazy" />
   </figure>
@@ -367,7 +371,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain</h3>
-  <p class="psy-pub__authors">Biao Zeng, Hui Yang, Prashant N.M., Sanan Venkatesh, Deepika Mathur, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, <span class="psy-consortium">PsychAD Consortium</span>, Georgios Voloudakis, Donghoon Lee, John F. Fullard, Jaroslav Bendl, Kiran Girdhar, Gabriel E. Hoffman, Panos Roussos</p>
+  <p class="psy-pub__authors">Biao Zeng, Hui Yang, Prashant N.M., Sanan Venkatesh, Deepika Mathur, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, PsychAD Consortium, Georgios Voloudakis, Donghoon Lee, John F. Fullard, Jaroslav Bendl, Kiran Girdhar, Gabriel E. Hoffman<sup class="psy-author-mark">#</sup>, Panos Roussos<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_gv1.png" alt="GV1 graphical abstract" loading="lazy" />
   </figure>
@@ -417,7 +422,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Single-nucleus transcriptome-wide association study of human brain disorders</h3>
-  <p class="psy-pub__authors">Sanan Venkatesh, Roman Kosoy, Zhenyi Wu, Marios Anyfantakis, Christian Dillard, Prashant N.M., David Burstein, Deepika Mathur, Chris Chatzinakos, Bukola Ajanaku, Fotis Tsetsos, Biao Zeng, Sonali Gupta, Rachel Bercovitch, Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, VA Million Veteran Program, <span class="psy-consortium">PsychAD Consortium</span>, Tim Bigdeli, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, Kiran Girdhar, Jaroslav Bendl, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Georgios Voloudakis, Panos Roussos</p>
+  <p class="psy-pub__authors">Sanan Venkatesh, Roman Kosoy<sup class="psy-author-mark">*</sup>, Zhenyi Wu<sup class="psy-author-mark">*</sup>, Marios Anyfantakis, Christian Dillard, Prashant N.M., David Burstein, Deepika Mathur, Chris Chatzinakos, Bukola Ajanaku, Fotis Tsetsos, Biao Zeng, Sonali Gupta, Rachel Bercovitch, Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, VA Million Veteran Program, PsychAD Consortium, Tim Bigdeli, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, Kiran Girdhar, Jaroslav Bendl, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Georgios Voloudakis<sup class="psy-author-mark">#</sup>, Panos Roussos<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">*</span> Equal contribution &nbsp;&middot;&nbsp; <span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_gv2.png" alt="GV2 graphical abstract" loading="lazy" />
   </figure>
@@ -468,7 +474,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Fast, flexible analysis of compositional data with crumblr</h3>
-  <p class="psy-pub__authors">Gabriel E. Hoffman, Panos Roussos</p>
+  <p class="psy-pub__authors">Gabriel E. Hoffman<sup class="psy-author-mark">#</sup>, Panos Roussos<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_method1.png" alt="METHOD 1 graphical abstract" loading="lazy" />
   </figure>
@@ -540,7 +547,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet</h3>
-  <p class="psy-pub__authors">Gabriel E. Hoffman, Donghoon Lee, Jaroslav Bendl, Prashant N.M., Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, Sanan Venkatesh, Georgios Voloudakis, Vahram Haroutunian, John F. Fullard, Panos Roussos</p>
+  <p class="psy-pub__authors">Gabriel E. Hoffman<sup class="psy-author-mark">#</sup>, Donghoon Lee, Jaroslav Bendl, Prashant N.M., Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, Sanan Venkatesh, Georgios Voloudakis, Vahram Haroutunian, John F. Fullard, Panos Roussos<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_method3.png" alt="METHOD 3 graphical abstract" loading="lazy" />
   </figure>
@@ -589,7 +597,8 @@ title: "Research"
     </div>
   </div>
   <h3 class="psy-pub__title">Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution</h3>
-  <p class="psy-pub__authors">John F. Fullard, Prashant N.M., Donghoon Lee, Deepika Mathur, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Tereza Clarence, David Burstein, Sanan Venkatesh, Pavan K. Auluck, Lisa L. Barnes, David A. Bennett, Stefano Marenco, <span class="psy-consortium">PsychAD Consortium</span>, Kiran Girdhar, Vahram Haroutunian, Gabriel E. Hoffman, Georgios Voloudakis, Jaroslav Bendl, Panos Roussos</p>
+  <p class="psy-pub__authors">John F. Fullard<sup class="psy-author-mark">*</sup>, Prashant N.M.<sup class="psy-author-mark">*</sup>, Donghoon Lee<sup class="psy-author-mark">*</sup>, Deepika Mathur, Karen Therrien, Aram Hong, Clara Casey, Zhiping Shao, Marcela Alvia, Stathis Argyriou, Tereza Clarence, David Burstein, Sanan Venkatesh, Pavan K. Auluck, Lisa L. Barnes, David A. Bennett, Stefano Marenco, PsychAD Consortium, Kiran Girdhar, Vahram Haroutunian, Gabriel E. Hoffman, Georgios Voloudakis, Jaroslav Bendl<sup class="psy-author-mark">#</sup>, Panos Roussos<sup class="psy-author-mark">#</sup></p>
+  <p class="psy-pub__authnote"><span class="psy-author-mark">*</span> Equal contribution &nbsp;&middot;&nbsp; <span class="psy-author-mark">#</span> Corresponding author</p>
   <figure class="psy-pub__fig">
     <img src="/assets/images/ga_resource.png" alt="RESOURCE graphical abstract" loading="lazy" />
   </figure>
