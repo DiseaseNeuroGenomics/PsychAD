@@ -773,6 +773,11 @@ sup.psy-author-mark {
   color: var(--psy-slate);
 }
 
+/* Neutral markers in the footer legend (no accent color) */
+.psy-pub__legend .psy-author-mark {
+  color: inherit;
+}
+
 .psy-pub__fig {
   margin: 0 0 1.4rem;
 }
