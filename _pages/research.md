@@ -19,6 +19,7 @@ title: "Research"
       <a class="psy-indexcard psy-pub--cap" href="#capstone">
         <span class="psy-indexcard__key">CAPSTONE</span>
         <span class="psy-indexcard__title">Single-cell atlas of transcriptomic vulnerability across brain disorders</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature.jpg" alt="Nature" loading="lazy" /></span>
       </a>
     </div>
   </div>
@@ -28,6 +29,7 @@ title: "Research"
       <a class="psy-indexcard psy-pub--age" href="#aging">
         <span class="psy-indexcard__key">AGING</span>
         <span class="psy-indexcard__title">Lifespan single-cell transcriptomic atlas of the human prefrontal cortex</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature.jpg" alt="Nature" loading="lazy" /></span>
       </a>
     </div>
   </div>
@@ -37,18 +39,22 @@ title: "Research"
       <a class="psy-indexcard psy-pub--dis" href="#disease1">
         <span class="psy-indexcard__key">DISEASE 1</span>
         <span class="psy-indexcard__title">Cell-cell interactome changes across multiple neuropsychiatric and neurodegenerative diseases</span>
+        <span class="psy-indexcard__logo"></span>
       </a>
       <a class="psy-indexcard psy-pub--dis" href="#disease2">
         <span class="psy-indexcard__key">DISEASE 2</span>
         <span class="psy-indexcard__title">Gene regulatory programs of cognitive resilience and pathogenesis in Alzheimer’s disease</span>
+        <span class="psy-indexcard__logo"></span>
       </a>
       <a class="psy-indexcard psy-pub--dis" href="#disease3">
         <span class="psy-indexcard__key">DISEASE 3</span>
         <span class="psy-indexcard__title">AI-based Characterization of Alzheimer’s Disease Phenotypes from Population Scale Single Cell Data</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature_medicine.jpg" alt="Nature Medicine" loading="lazy" /></span>
       </a>
       <a class="psy-indexcard psy-pub--dis" href="#disease4">
         <span class="psy-indexcard__key">DISEASE 4</span>
         <span class="psy-indexcard__title">Personalized Single-Cell Transcriptomics Reveals Molecular Diversity in Alzheimer&#x27;s Disease</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature_comms.png" alt="Nature Communications" loading="lazy" /></span>
       </a>
     </div>
   </div>
@@ -58,10 +64,12 @@ title: "Research"
       <a class="psy-indexcard psy-pub--gv" href="#gv1">
         <span class="psy-indexcard__key">GV1</span>
         <span class="psy-indexcard__title">Single-Nucleus Atlas of Cell-Type Specific Genetic Regulation in the Human Brain</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature_genetics.jpg" alt="Nature Genetics" loading="lazy" /></span>
       </a>
       <a class="psy-indexcard psy-pub--gv" href="#gv2">
         <span class="psy-indexcard__key">GV2</span>
         <span class="psy-indexcard__title">Single-nucleus transcriptome-wide association study of human brain disorders</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature.jpg" alt="Nature" loading="lazy" /></span>
       </a>
     </div>
   </div>
@@ -71,14 +79,17 @@ title: "Research"
       <a class="psy-indexcard psy-pub--mth" href="#method1">
         <span class="psy-indexcard__key">METHOD 1</span>
         <span class="psy-indexcard__title">Fast, flexible analysis of compositional data with crumblr</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature_comms.png" alt="Nature Communications" loading="lazy" /></span>
       </a>
       <a class="psy-indexcard psy-pub--mth" href="#method2">
         <span class="psy-indexcard__key">METHOD 2</span>
         <span class="psy-indexcard__title">Generalizable Prediction of Alzheimer’s Disease pathologies with Human-Level Accuracy</span>
+        <span class="psy-indexcard__logo"></span>
       </a>
       <a class="psy-indexcard psy-pub--mth" href="#method3">
         <span class="psy-indexcard__key">METHOD 3</span>
         <span class="psy-indexcard__title">Efficient differential expression analysis of large-scale single cell transcriptomics data using dreamlet</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/nature_comms.png" alt="Nature Communications" loading="lazy" /></span>
       </a>
     </div>
   </div>
@@ -88,6 +99,7 @@ title: "Research"
       <a class="psy-indexcard psy-pub--res" href="#resource">
         <span class="psy-indexcard__key">RESOURCE</span>
         <span class="psy-indexcard__title">Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution</span>
+        <span class="psy-indexcard__logo"><img class="psy-indexcard__logo-img" src="/assets/images/sci_data.jpg" alt="Scientific Data" loading="lazy" /></span>
       </a>
     </div>
   </div>
@@ -100,7 +112,7 @@ title: "Research"
       <span class="psy-pub__cat">Flagship atlas</span>
     </div>
     <div class="psy-pub__links">
-        <a class="psy-pub__badge psy-pub__badge--journal" href="https://doi.org/10.1038/s41586-025-09573-z" target="_blank" rel="noopener">Nature <i class="fas fa-arrow-up-right-from-square"></i></a>
+        <a class="psy-pub__logo" href="https://doi.org/10.1038/s41586-025-09573-z" target="_blank" rel="noopener" title="Published in Nature"><img class="psy-pub__logo-img" src="/assets/images/nature.jpg" alt="Nature" loading="lazy" /></a>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2024.10.31.24316513" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> medRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -155,7 +167,7 @@ title: "Research"
       <span class="psy-pub__cat">Aging &amp; lifespan</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature</span>
+        <span class="psy-pub__logo" title="To appear in Nature"><img class="psy-pub__logo-img" src="/assets/images/nature.jpg" alt="Nature" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2024.11.06.24316592" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> medRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -250,7 +262,7 @@ title: "Research"
       <span class="psy-pub__cat">Disease mechanisms</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature Medicine</span>
+        <span class="psy-pub__logo" title="To appear in Nature Medicine"><img class="psy-pub__logo-img" src="/assets/images/nature_medicine.jpg" alt="Nature Medicine" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2024.11.01.24316586" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> medRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -300,7 +312,7 @@ title: "Research"
       <span class="psy-pub__cat">Disease mechanisms</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature Communications</span>
+        <span class="psy-pub__logo" title="To appear in Nature Communications"><img class="psy-pub__logo-img" src="/assets/images/nature_comms.png" alt="Nature Communications" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2024.11.01.24316589" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> medRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -350,7 +362,7 @@ title: "Research"
       <span class="psy-pub__cat">Genetic regulation</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature Genetics</span>
+        <span class="psy-pub__logo" title="To appear in Nature Genetics"><img class="psy-pub__logo-img" src="/assets/images/nature_genetics.jpg" alt="Nature Genetics" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2024.11.02.24316590" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> medRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -400,7 +412,7 @@ title: "Research"
       <span class="psy-pub__cat">Genetic regulation</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature</span>
+        <span class="psy-pub__logo" title="To appear in Nature"><img class="psy-pub__logo-img" src="/assets/images/nature.jpg" alt="Nature" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2024.11.04.24316495" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> medRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -451,7 +463,7 @@ title: "Research"
       <span class="psy-pub__cat">Computational methods</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature Communications</span>
+        <span class="psy-pub__logo" title="To appear in Nature Communications"><img class="psy-pub__logo-img" src="/assets/images/nature_comms.png" alt="Nature Communications" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2025.01.29.635498" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> bioRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -523,7 +535,7 @@ title: "Research"
       <span class="psy-pub__cat">Computational methods</span>
     </div>
     <div class="psy-pub__links">
-        <span class="psy-pub__badge psy-pub__badge--journal">Nature Communications</span>
+        <span class="psy-pub__logo" title="To appear in Nature Communications"><img class="psy-pub__logo-img" src="/assets/images/nature_comms.png" alt="Nature Communications" loading="lazy" /></span>
         <a class="psy-pub__badge" href="https://doi.org/10.1101/2023.03.17.533005" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> bioRxiv <i class="fas fa-arrow-up-right-from-square"></i></a>
     </div>
   </div>
@@ -573,7 +585,7 @@ title: "Research"
       <span class="psy-pub__cat">Data resource</span>
     </div>
     <div class="psy-pub__links">
-        <a class="psy-pub__badge psy-pub__badge--journal" href="https://doi.org/10.1038/s41597-025-04687-5" target="_blank" rel="noopener">Scientific Data <i class="fas fa-arrow-up-right-from-square"></i></a>
+        <a class="psy-pub__logo" href="https://doi.org/10.1038/s41597-025-04687-5" target="_blank" rel="noopener" title="Published in Scientific Data"><img class="psy-pub__logo-img" src="/assets/images/sci_data.jpg" alt="Scientific Data" loading="lazy" /></a>
     </div>
   </div>
   <h3 class="psy-pub__title">Population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution</h3>
