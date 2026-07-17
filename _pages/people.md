@@ -358,6 +358,11 @@ title: "People"
         <td><span class="pub-icons"><a class="pubdot pubdot--age" href="/research/#aging" title="AGING: lifespan atlas">AGE</a></span></td>
         <td><ul class="aff-list"><li>Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA</li></ul></td>
       </tr>
+      <tr>
+        <td><span class="person-name">Sheena Kapoor</span></td>
+        <td><span class="pub-icons"></span></td>
+        <td><ul class="aff-list"><li>Center for Disease Neurogenomics, Icahn School of Medicine at Mount Sinai, New York, NY, USA</li><li>Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, NY, USA</li></ul></td>
+      </tr>
     </tbody>
   </table>
 </div>
