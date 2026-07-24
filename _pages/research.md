@@ -300,6 +300,7 @@ title: "Research"
       <h4><i class="fas fa-flask" aria-hidden="true"></i> Research groups</h4>
       <ul>
         <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://daifengwanglab.org/" target="_blank" rel="noopener">Wang Lab</a></li>
+        <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://icahn.mssm.edu/research/neurogenomics" target="_blank" rel="noopener">Center for Disease Neurogenomics</a></li>
       </ul>
     </div>
   </div>
@@ -350,6 +351,7 @@ title: "Research"
       <h4><i class="fas fa-flask" aria-hidden="true"></i> Research groups</h4>
       <ul>
         <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://daifengwanglab.org/" target="_blank" rel="noopener">Wang Lab</a></li>
+        <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://icahn.mssm.edu/research/neurogenomics" target="_blank" rel="noopener">Center for Disease Neurogenomics</a></li>
       </ul>
     </div>
   </div>
@@ -449,8 +451,8 @@ title: "Research"
     <div>
       <h4><i class="fas fa-flask" aria-hidden="true"></i> Research groups</h4>
       <ul>
-        <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://labs.icahn.mssm.edu/voloudakislab/" target="_blank" rel="noopener">Voloudakis Lab</a></li>
         <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://icahn.mssm.edu/research/neurogenomics/translational-bioinformatics" target="_blank" rel="noopener">Translational Bioinformatics &amp; Precision Therapeutics Group</a></li>
+        <li><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i><a href="https://icahn.mssm.edu/research/neurogenomics" target="_blank" rel="noopener">Center for Disease Neurogenomics</a></li>
       </ul>
     </div>
   </div>
