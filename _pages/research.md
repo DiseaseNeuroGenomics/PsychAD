@@ -420,7 +420,7 @@ title: "Research"
   </div>
   <h3 class="psy-pub__title">Single-nucleus transcriptome-wide association study of human brain disorders</h3>
   <p class="psy-pub__authors">Sanan Venkatesh, Roman Kosoy<sup class="psy-author-mark">*</sup>, Zhenyi Wu<sup class="psy-author-mark">*</sup>, Marios Anyfantakis, Christian Dillard, Prashant N.M., David Burstein, Deepika Mathur, Chris Chatzinakos, Bukola Ajanaku, Fotis Tsetsos, Biao Zeng, Sonali Gupta, Rachel Bercovitch, Aram Hong, Clara Casey, Marcela Alvia, Zhiping Shao, Stathis Argyriou, Karen Therrien, VA Million Veteran Program, PsychAD Consortium, Tim Bigdeli, Pavan Auluck, David A. Bennett, Stefano Marenco, Vahram Haroutunian, Kiran Girdhar, Jaroslav Bendl, Donghoon Lee, John F. Fullard, Gabriel E. Hoffman, Georgios Voloudakis<sup class="psy-author-mark">#</sup>, Panos Roussos<sup class="psy-author-mark">#</sup></p>
-  <figure class="psy-pub__fig">
+  <figure class="psy-pub__fig psy-pub__fig--tall">
     <img src="/assets/images/ga_gv2.png" alt="GV2 graphical abstract" loading="lazy" />
   </figure>
   <div class="psy-pub__why">

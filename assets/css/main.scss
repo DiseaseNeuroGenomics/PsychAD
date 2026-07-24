@@ -799,6 +799,20 @@ sup.psy-author-mark {
   margin: 0;
 }
 
+/* Tall/portrait figures: cap the height and center so the sides fill with
+   white space instead of the image dominating the card. Temporary until a
+   horizontal version is available. */
+.psy-pub__fig--tall {
+  text-align: center;
+}
+
+.psy-pub__fig--tall img {
+  width: auto;
+  max-width: 100%;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
 .psy-pub__fig figcaption {
   margin-top: .5rem;
   font-size: .78rem;
