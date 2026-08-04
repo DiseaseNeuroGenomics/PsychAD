@@ -1039,6 +1039,32 @@ sup.psy-author-mark {
 
 .orcid-link:hover { color: #7fa524; }
 
+/* LinkedIn / X profile links, shown alongside .orcid-link */
+.social-link {
+  margin-left: .35em;
+  font-size: 1.02em;
+  text-decoration: none;
+  vertical-align: -1px;
+}
+
+.social-link--li { color: #0a66c2; }
+.social-link--li:hover { color: #084d94; }
+
+.social-link--x { color: var(--psy-ink); }
+.social-link--x:hover { color: var(--psy-slate); }
+
+/* Role qualifier under a person's name (e.g. Project Manager) */
+.psychad-people .person-role {
+  display: block;
+  margin-top: .2rem;
+  font-size: .72rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--psy-slate);
+  white-space: nowrap;
+}
+
 /* ---- Circular publication icons ---- */
 .pub-icons {
   display: flex;
