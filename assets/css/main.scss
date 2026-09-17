@@ -60,8 +60,8 @@ $footer-background-color: #11132b;
    which makes the layout feel magnified. Shift the ramp down one step so text
    is a notch smaller and more content fits comfortably. */
 @media (min-width: 48em) { html { font-size: 16px; } }
-@media (min-width: 64em) { html { font-size: 18px; } }
-@media (min-width: 80em) { html { font-size: 20px; } }
+@media (min-width: 64em) { html { font-size: 16px; } }
+@media (min-width: 80em) { html { font-size: 16px; } }
 
 body {
   color: var(--psy-ink);
@@ -76,8 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__content {
-  font-size: 1.05em;
-  line-height: 1.7;
+  font-size: 1.125rem;   /* 18px, matching nature.com article body */
+  line-height: 1.8;
 }
 
 a {
@@ -386,7 +386,7 @@ a {
   margin-right: auto;
 }
 
-.psy-kicker {
+p.psy-kicker {
   font-family: $header-font-family;
   font-weight: 600;
   letter-spacing: .16em;
@@ -397,7 +397,7 @@ a {
 }
 
 .psy-h2 {
-  font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+  font-size: clamp(1.5rem, 2.6vw, 1.9rem);
   line-height: 1.12;
   margin: 0 0 1rem;
 }
@@ -407,9 +407,9 @@ a {
   text-align: center;
 }
 
-.psy-lead {
-  font-size: 1.12rem;
-  line-height: 1.75;
+p.psy-lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
   color: var(--psy-slate);
 }
 
@@ -746,17 +746,49 @@ a.psy-pub__logo:hover .psy-pub__logo-img { box-shadow: var(--psy-shadow); }
 
 .psy-pub__title {
   font-family: $header-font-family;
-  font-size: clamp(1.25rem, 2.6vw, 1.65rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
   line-height: 1.22;
   margin: .1rem 0 .7rem;
   color: var(--psy-ink);
 }
 
-.psy-pub__authors {
-  font-size: .9rem;
+p.psy-pub__authors {
+  font-size: 1rem;
   line-height: 1.65;
   color: var(--psy-slate);
   margin: 0 0 1.3rem;
+}
+
+/* DOI line beneath the author list */
+p.psy-pub__authors:has(+ .psy-pub__doi) { margin-bottom: .5rem; }
+
+p.psy-pub__doi {
+  font-size: .875rem;
+  line-height: 1.5;
+  color: var(--psy-slate);
+  margin: 0 0 1.3rem;
+}
+
+.psy-pub__doi a {
+  color: var(--psy-indigo);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(46, 49, 146, .28);
+}
+
+.psy-pub__doi a:hover { border-bottom-color: currentColor; }
+
+/* Author names link through to their row on the People page */
+.psy-pub__authors a.psy-author {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(74, 79, 106, .25);
+}
+
+.psy-pub__authors a.psy-author:hover,
+.psy-pub__authors a.psy-author:focus-visible {
+  color: var(--psy-indigo);
+  border-bottom-color: currentColor;
 }
 
 /* Contribution / corresponding-author superscript markers
@@ -880,8 +912,8 @@ sup.psy-author-mark {
   position: relative;
   padding-left: 1.7rem;
   margin: 0 0 .6rem;
-  font-size: .95rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--psy-slate);
 }
 
@@ -932,8 +964,8 @@ sup.psy-author-mark {
 
 .psy-pub__abstract p {
   margin: .9rem 0 0;
-  font-size: .92rem;
-  line-height: 1.72;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--psy-slate);
 }
 
@@ -970,6 +1002,14 @@ sup.psy-author-mark {
 /* ==========================================================================
    People page
    ========================================================================== */
+
+/* Row targeted from an author link on the Research page */
+.psychad-people tbody tr[id] { scroll-margin-top: 5.5rem; }
+
+.psychad-people tbody tr:target {
+  background: rgba(230, 0, 126, .06);
+  box-shadow: inset 3px 0 0 var(--psy-magenta);
+}
 
 .psychad-people img {
   border-radius: var(--psy-radius);
